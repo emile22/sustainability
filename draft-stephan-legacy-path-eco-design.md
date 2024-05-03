@@ -12,11 +12,11 @@ v: 3
 # area: AREA
 # workgroup: WG Working Group
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - Sustainability
+ - green
+ - eco-design
 venue:
-#  group: WG
+#  group: Green BoF
 #  type: Working Group
 #  mail: WG@example.com
 #  arch: https://example.com/WG
