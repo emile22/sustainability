@@ -1,4 +1,4 @@
-# TODO - Your title
+# draft-stephan-legacy-path-eco-design
 
 This is the working area for the individual Internet-Draft, "TODO - Your title".
 
