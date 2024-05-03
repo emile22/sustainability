@@ -17,8 +17,8 @@ keyword:
  - eco-design
 venue:
 #  group: Green BoF
-#  type: Working Group
-#  mail: WG@example.com
+#  type: individual
+#  mail: e-impact@ietf.org
 #  arch: https://example.com/WG
   github: "emile22/sustainability"
   latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design.html"
@@ -36,7 +36,7 @@ informative:
 
 --- abstract
 
-TODO Abstract
+Many companies in Europe have integrated sustainability improvements into their core business strategies. It is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.  
 
 
 --- middle
