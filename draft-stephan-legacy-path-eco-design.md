@@ -1,6 +1,6 @@
 ---
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "legacy modularity usage for eco-conception"
+abbrev: "legacy modularity and eco-design"
 category: info
 
 docname: draft-stephan-legacy-path-eco-design-latest
@@ -25,8 +25,8 @@ venue:
 
 author:
  -
-    fullname: "emile"
-    organization: Your Organization Here
+    fullname: "emile Stephan"
+    organization: Orange
     email: "emile.stephan@gmail.com"
 
 normative:
