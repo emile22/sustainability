@@ -1,4 +1,4 @@
-draft-stephan-legacy-path-eco-design---
+---
 ###
 # Internet-Draft Markdown Template
 #
