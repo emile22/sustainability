@@ -15,7 +15,7 @@ keyword:
  - Sustainability
  - green
  - eco-design
-venue:
+#  venue: TODO
 #  group: Green BoF
 #  type: individual
 #  mail: e-impact@ietf.org
