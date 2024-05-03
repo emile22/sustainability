@@ -1,6 +1,6 @@
 # draft-stephan-legacy-path-eco-design
 
-This is the working area for the individual Internet-Draft, "TODO - Your title".
+This is the working area for the individual Internet-Draft, "draft-stephan-legacy-path-eco-design".
 
 * [Editor's Copy](https://emile22.github.io/sustainability/#go.draft-stephan-legacy-path-eco-design.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-stephan-legacy-path-eco-design)
