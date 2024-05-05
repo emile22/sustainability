@@ -1,0 +1,73 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2024-05-05T01:02:18.568385+00:00",
+  "repo": "emile22/sustainability",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOL2qM4M6HyCoN",
+      "title": "abstract missing",
+      "url": "https://github.com/emile22/sustainability/issues/1",
+      "state": "CLOSED",
+      "author": "emile22",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [
+        "documentation"
+      ],
+      "body": "add the abstract",
+      "createdAt": "2024-05-03T16:32:32Z",
+      "updatedAt": "2024-05-03T21:57:27Z",
+      "closedAt": "2024-05-03T21:57:27Z",
+      "comments": []
+    }
+  ],
+  "pulls": []
+}
