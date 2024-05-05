@@ -13,8 +13,7 @@ v: 3
 # workgroup: WG Working Group
 keyword:
  - Sustainability
- - green
- - ecodesign
+
 #  venue: TODO
 #  group: Green BoF
 #  type: individual
