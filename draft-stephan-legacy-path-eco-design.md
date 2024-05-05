@@ -9,12 +9,12 @@ number:
 date:
 consensus: true
 v: 3
-# area: AREA
+# area: OPS
 # workgroup: WG Working Group
 keyword:
  - Sustainability
  - green
- - eco-design
+ - ecodesign
 #  venue: TODO
 #  group: Green BoF
 #  type: individual
