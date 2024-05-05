@@ -23,7 +23,6 @@ keyword:
   latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design.html"
 
 author:
- -
     fullname: "emile Stephan"
     organization: Orange
     email: "emile.stephan@gmail.com"
