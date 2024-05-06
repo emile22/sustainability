@@ -22,18 +22,19 @@ keyword: Sustainability
   latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design.html"
 
 author:
-    fullname: "emile Stephan"
-    organization: Orange
-    street: 2, avenue Pierre Marzin
-    city: Lannion
-    code: 22300
-    country: France
-    email: "emile.stephan@gmail.com"
+ - name: Emile Stephan
+   organization: Orange
+   street: 2, avenue Pierre Marzin
+   city: Lannion
+   code: 22300
+   country: France
+   email: emile.stephan@gmail.com
 
 normative:
-
+  RFC2119:
+  
 informative:
-
+  RFC6241:      
 
 --- abstract
 
