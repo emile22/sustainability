@@ -73,11 +73,15 @@ Table of Contents
    2.  Conventions and Definitions
    3.  Existing devices modularity
    4.  Existing device modularity and eco design
-   5.  Security Considerations
-   6.  IANA Considerations
-   7.  References
-     7.1.  Normative References
-     7.2.  Informative References
+   5.  Rational for standardisation at the IETF
+     5.1.  migration
+     5.2.  LCA
+   6.  Impact on datamodels
+   7.  Security Considerations
+   8.  IANA Considerations
+   9.  References
+     9.1.  Normative References
+     9.2.  Informative References
    Acknowledgments
    Author's Address
 
@@ -173,18 +177,40 @@ Table of Contents
    of LCM. datamodel pieces are needed to track these configuration
    updates.
 
-5.  Security Considerations
+5.  Rational for standardisation at the IETF
+
+   modularity: info models to describe that, state, what was changed,
+   what was adapted to sustainability, which part is adapted to eco
+   design, on which aspect
+
+   Does the datamodel need to say that the device is modular, how it is
+   modular ?
+
+5.1.  migration
+
+5.2.  LCA
+
+6.  Impact on datamodels
+
+   trajectory of migration of legacy devices components to prepare them
+   to eco design :
+
+   which parts, which order : firmware, software, hardware (power block)
+
+   TODO add link to sust draft and inventory draft
+
+7.  Security Considerations
 
    The tracking of LCM information may reveal information on the owner
    of the device
 
-6.  IANA Considerations
+8.  IANA Considerations
 
    This document has no IANA actions.
 
-7.  References
+9.  References
 
-7.1.  Normative References
+9.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -195,7 +221,7 @@ Table of Contents
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
-7.2.  Informative References
+9.2.  Informative References
 
    [RFC6241]  Enns, R., Ed., Bjorklund, M., Ed., Schoenwaelder, J., Ed.,
               and A. Bierman, Ed., "Network Configuration Protocol
