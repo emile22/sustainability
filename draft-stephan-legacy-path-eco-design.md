@@ -38,7 +38,7 @@ informative:
 
 --- abstract
 
-This draft discusses the usage of inventory information for adapting parts of existing device to eco-design.
+This draft discusses the usage of inventory information for adapting parts of existing device to eco-design. It is driven by the weight of the manufacturing in the sustainability and resiliency cost wrt to the power consumption.
 
 --- middle
 
@@ -70,7 +70,9 @@ Currently the design of always-on devices software do not include eco design. Th
 
 Firmware:
 
-Currently the design of firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to hardware parts designed to reduce their power consumptions, their bits rates or both, or more; It applies to existing
+Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts.
+
+In summary: the work on reporting real time power efficiency is started. On the other hand, there are evolutions toward more sustainability which require the reporting of just static information which must be specified.
 
 Examples:
 
