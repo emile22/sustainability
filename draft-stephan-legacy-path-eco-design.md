@@ -24,6 +24,10 @@ keyword: Sustainability
 author:
     fullname: "emile Stephan"
     organization: Orange
+    street: 2, avenue Pierre Marzin
+    city: Lannion
+    code: 22300
+    country: France
     email: "emile.stephan@gmail.com"
 
 normative:
@@ -39,7 +43,10 @@ Many companies in Europe have integrated sustainability improvements into their 
 
 # Introduction
 
-It is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance
+Many companies in Europe have integrated sustainability improvements into their core business strategies. It is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
+This impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to improve sustainability performance faster.
+We first recall different uses cases where the levels of modularity requirements are different (Aka velodrome, shopping center ...). Then we present how sustainability impacts device modularity (eco design power management, circular economy ...) Device modularity is usually per design, finally we identify device modularity aspects to explicitly specified and standardized.
+Eco conception of new devices is not discussed in this draft.
 
 
 # Conventions and Definitions
