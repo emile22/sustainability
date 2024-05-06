@@ -5,23 +5,24 @@ docname: draft-stephan-legacy-path-eco-design-latest
 
 category: info
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
-number:
-date:
 consensus: true
-# area: OPS
-# workgroup: WG Working Group
+area: OPS
+workgroup: WG Working Group
 keyword: Sustainability
 
-#  venue: TODO
-#  group: Green BoF
-#  type: individual
-#  mail: e-impact@ietf.org
-#  arch: https://example.com/WG
+venue:
+  group: "Green BoF"
+  type: "individual"
+  mail: "e-impact@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/ppm/"
   github: "emile22/sustainability"
   latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design.html"
+  
+v: 3
 
 author:
- - name: Emile Stephan
+
+   name: Emile Stephan
    organization: Orange
    street: 2, avenue Pierre Marzin
    city: Lannion
