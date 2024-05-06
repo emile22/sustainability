@@ -1,18 +1,17 @@
 ---
+v: 3
 title: "legacy modularity usage for eco-conception"
 abbrev: "legacy modularity and eco-design"
-category: info
-
 docname: draft-stephan-legacy-path-eco-design-latest
+
+category: info
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
 consensus: true
-v: 3
 # area: OPS
 # workgroup: WG Working Group
-keyword:
-    Sustainability
+keyword: Sustainability
 
 #  venue: TODO
 #  group: Green BoF
