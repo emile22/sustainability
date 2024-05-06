@@ -45,7 +45,9 @@ This draft discusses the usage of inventory information for adapting parts of ex
 # Introduction
 
 Many companies in Europe have integrated sustainability improvements into their core business strategies. It is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
-This impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to improve sustainability performance faster.
+
+Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to increase sustainability performance faster.
+
 We first recall different uses cases where the levels of modularity requirements are different (Aka velodrome, shopping center ...). Then we present how sustainability impacts device modularity (eco design power management, circular economy ...) Device modularity is usually per design, finally we identify device modularity aspects to explicitly specified and standardized.
 
 Eco conception of new devices is not discussed in this draft.
@@ -54,6 +56,13 @@ Eco conception of new devices is not discussed in this draft.
 
 {::boilerplate bcp14-tagged}
 
+# Existing devices modularity 
+
+There is a balance to find between the increase of the live duration of existing devices and their replacement with eco design devices.  
+
+Eco design modularity applies not only to physical components but to any artifacts of the device:  
+
+Hardware : TODO list of typical cards and physical blocks (power ...) 
 
 # Security Considerations
 
