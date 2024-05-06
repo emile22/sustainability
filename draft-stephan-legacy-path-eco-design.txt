@@ -28,7 +28,7 @@ About This Document
 
    Discussion of this document takes place on the Green BoF individual
    mailing list (mailto:e-impact@ietf.org), which is archived at
-   https://mailarchive.ietf.org/arch/browse/ppm/.  Subscribe at
+   https://mailarchive.ietf.org/arch/browse/e-impact/.  Subscribe at
    https://www.ietf.org/mailman/listinfo/e-impact/.
 
    Source for this draft and an issue tracker can be found at
