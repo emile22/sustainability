@@ -1,5 +1,4 @@
 ---
-v: 3
 title: "legacy modularity usage for eco-conception"
 abbrev: "legacy modularity and eco-design"
 docname: draft-stephan-legacy-path-eco-design-latest
