@@ -62,7 +62,7 @@ There is a balance to find between the increase of the live duration of existing
 
 Eco design modularity applies not only to physical components but to any artifacts of the device:
 
-Hardware : TODO list of typical cards and physical blocks (power ...) 
+Hardware : cards and physical blocks (power ...)
 
 # Security Considerations
 
