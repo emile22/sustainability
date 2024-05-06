@@ -56,11 +56,11 @@ Eco conception of new devices is not discussed in this draft.
 
 {::boilerplate bcp14-tagged}
 
-# Existing devices modularity 
+# Existing devices modularity
 
 There is a balance to find between the increase of the live duration of existing devices and their replacement with eco design devices.  
 
-Eco design modularity applies not only to physical components but to any artifacts of the device:  
+Eco design modularity applies not only to physical components but to any artifacts of the device:
 
 Hardware : TODO list of typical cards and physical blocks (power ...) 
 
