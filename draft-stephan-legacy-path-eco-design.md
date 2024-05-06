@@ -78,6 +78,16 @@ Examples:
 
 case of PoE
 
+# Existing device modularity and eco design
+
+There are numerous definitions of eco design:
+
+Eco Design means that the products and services include environmental considerations throughout their entire lifecycle to reduce their environmental impact pursuant to Orange defined internal process(es), which are  based on France’s General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
+
+Eco-design can be summarized as the concepts and current practices related to the integration of environmental aspects into every stage of a product lifecycle. This starts at product design and development [ISO/TR 14062:2002 ]
+
+The refurbishment of existing devices with eco designed parts is part of LCM. datamodel pieces are needed to track these configuration updates.
+
 # Security Considerations
 
 The tracking of LCM information may reveal information on the owner of the device
