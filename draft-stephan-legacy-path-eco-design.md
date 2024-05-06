@@ -14,7 +14,7 @@ venue:
   group: "Green BoF"
   type: "individual"
   mail: "e-impact@ietf.org"
-  arch: "https://mailarchive.ietf.org/arch/browse/ppm/"
+  arch: "https://mailarchive.ietf.org/arch/browse/e-impact/"
   github: "emile22/sustainability"
   latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design.html"
 
