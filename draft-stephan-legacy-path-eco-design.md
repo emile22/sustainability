@@ -32,9 +32,9 @@ author:
 
 normative:
   RFC2119:
-  
+
 informative:
-  RFC6241:      
+  RFC6241:
 
 --- abstract
 
