@@ -58,7 +58,7 @@ Eco conception of new devices is not discussed in this draft.
 
 # Existing devices modularity
 
-There is a balance to find between the increase of the live duration of existing devices and their replacement with eco design devices.  
+There is a balance to find between the increase of the live duration of existing devices and their replacement with eco design devices.
 
 Eco design modularity applies not only to physical components but to any artifacts of the device:
 
