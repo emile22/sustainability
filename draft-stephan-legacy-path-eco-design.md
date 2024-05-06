@@ -58,11 +58,23 @@ Eco conception of new devices is not discussed in this draft.
 
 # Existing devices modularity
 
-There is a balance to find between the increase of the live duration of existing devices and their replacement with eco design devices.
+There is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices. In the mean time both are going to be included in sustainability approaches and they will co-exist in the networks. In addition legacy devices will include more and more ecodesigned components.
 
-Eco design modularity applies not only to physical components but to any artifacts of the device:
+The increase of the live duration of existing devices will require managing the replacement not only of physical components but of any artifacts of the device:
 
-Hardware : cards and physical blocks (power ...)
+Hardware: cards and physical blocks (power ...)
+
+Software:
+
+Currently the design of always-on devices software do not include eco design. Their softwares have to be prepared as their firmware can be adapted to reduce existing hardware power consumptions, bits rates ...
+
+Firmware:
+
+Currently the design of firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to hardware parts designed to reduce their power consumptions, their bits rates or both, or more; It applies to existing
+
+Examples:
+
+case of PoE
 
 # Security Considerations
 
