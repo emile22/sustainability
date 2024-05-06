@@ -69,11 +69,12 @@ Table of Contents
 
    1.  Introduction
    2.  Conventions and Definitions
-   3.  Security Considerations
-   4.  IANA Considerations
-   5.  References
-     5.1.  Normative References
-     5.2.  Informative References
+   3.  Existing devices modularity
+   4.  Security Considerations
+   5.  IANA Considerations
+   6.  References
+     6.1.  Normative References
+     6.2.  Informative References
    Acknowledgments
    Author's Address
 
@@ -85,16 +86,19 @@ Table of Contents
    CSRD (Corporate Sustainability Reporting Directive), a regulatory
    framework proposed by the European Commission to enhance corporate
    transparency and ensure that companies provide comparable information
-   to assess their sustainability performance.  This impacts numerous
-   aspects of the life cycle management (LCM) of devices.  In this draft
-   we discuss the advantages of leveraging existing device modularity to
-   improve sustainability performance faster.  We first recall different
-   uses cases where the levels of modularity requirements are different
-   (Aka velodrome, shopping center ...).  Then we present how
-   sustainability impacts device modularity (eco design power
-   management, circular economy ...) Device modularity is usually per
-   design, finally we identify device modularity aspects to explicitly
-   specified and standardized.
+   to assess their sustainability performance.
+
+   Sustainability impacts numerous aspects of the life cycle management
+   (LCM) of devices.  In this draft we discuss the advantages of
+   leveraging existing device modularity to increase sustainability
+   performance faster.
+
+   We first recall different uses cases where the levels of modularity
+   requirements are different (Aka velodrome, shopping center ...).
+   Then we present how sustainability impacts device modularity (eco
+   design power management, circular economy ...) Device modularity is
+   usually per design, finally we identify device modularity aspects to
+   explicitly specified and standardized.
 
    Eco conception of new devices is not discussed in this draft.
 
@@ -106,18 +110,28 @@ Table of Contents
    BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
 
-3.  Security Considerations
+3.  Existing devices modularity
+
+   There is a balance to find between the increase of the live duration
+   of existing devices and their replacement with eco design devices.
+
+   Eco design modularity applies not only to physical components but to
+   any artifacts of the device:
+
+   Hardware : cards and physical blocks (power ...)
+
+4.  Security Considerations
 
    The tracking of LCM information may reveal information on the owner
    of the device
 
-4.  IANA Considerations
+5.  IANA Considerations
 
    This document has no IANA actions.
 
-5.  References
+6.  References
 
-5.1.  Normative References
+6.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -128,7 +142,7 @@ Table of Contents
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
-5.2.  Informative References
+6.2.  Informative References
 
    [RFC6241]  Enns, R., Ed., Bjorklund, M., Ed., Schoenwaelder, J., Ed.,
               and A. Bierman, Ed., "Network Configuration Protocol
