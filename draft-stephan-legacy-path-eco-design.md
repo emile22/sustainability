@@ -88,15 +88,31 @@ Eco-design can be summarized as the concepts and current practices related to th
 
 The refurbishment of existing devices with eco designed parts is part of LCM. datamodel pieces are needed to track these configuration updates.
 
+# Rational for standardisation at the IETF
+
+modularity: info models to describe that, state, what was changed, what was adapted to sustainability, which part is adapted to eco design, on which aspect
+
+Does the datamodel need to say that the device is modular, how it is modular ?
+
+## migration
+
+## LCA
+
+# Impact on datamodels
+
+trajectory of migration of legacy devices components to prepare them to eco design :
+
+which parts, which order : firmware, software, hardware (power block)
+
+TODO add link to sust draft and inventory draft
+
 # Security Considerations
 
 The tracking of LCM information may reveal information on the owner of the device
 
-
 # IANA Considerations
 
 This document has no IANA actions.
-
 
 --- back
 
