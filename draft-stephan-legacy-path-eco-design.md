@@ -17,7 +17,7 @@ venue:
   arch: "https://mailarchive.ietf.org/arch/browse/ppm/"
   github: "emile22/sustainability"
   latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design.html"
-  
+
 v: 3
 
 author:
