@@ -12,7 +12,7 @@ v: 3
 # area: OPS
 # workgroup: WG Working Group
 keyword:
- - Sustainability
+    Sustainability
 
 #  venue: TODO
 #  group: Green BoF
@@ -50,7 +50,7 @@ It is driven by a growing awareness of environmental issues and regulatory requi
 
 # Security Considerations
 
-TODO Security
+The tracking of LCM information may reveal information the owner of the device
 
 
 # IANA Considerations
