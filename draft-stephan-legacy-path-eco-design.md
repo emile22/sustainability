@@ -41,13 +41,13 @@ informative:
     date: 2023-10-20
     target: "https://datatracker.ietf.org/doc/draft-almprs-sustainability-insights/"
     author:
-			- ins: Per Andersson 
-			- ins: Jan Lindblad 
-			- ins: Snezana Mitrovic 
-			- ins: Marisol Palmero 
-			- ins: Esther Roure 
-			- ins: Gonzalo Salgueiro 
-			- ins: Stephan Emile 
+			- ins: Per Andersson
+			- ins: Jan Lindblad
+			- ins: Snezana Mitrovic
+			- ins: Marisol Palmero
+			- ins: Esther Roure
+			- ins: Gonzalo Salgueiro
+			- ins: Stephan Emile
 
 --- abstract
 
