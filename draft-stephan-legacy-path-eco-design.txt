@@ -4,8 +4,8 @@
 
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
-Intended status: Informational                                6 May 2024
-Expires: 7 November 2024
+Intended status: Informational                                7 May 2024
+Expires: 8 November 2024
 
 
                legacy modularity usage for eco-conception
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 November 2024.
+   This Internet-Draft will expire on 8 November 2024.
 
 Copyright Notice
 
@@ -227,6 +227,12 @@ Table of Contents
               and A. Bierman, Ed., "Network Configuration Protocol
               (NETCONF)", RFC 6241, DOI 10.17487/RFC6241, June 2011,
               <https://www.rfc-editor.org/rfc/rfc6241>.
+
+   [SUSTINS]  Per Andersson, Jan Lindblad, Snezana Mitrovic, Marisol
+              Palmero, Esther Roure, Gonzalo Salgueiro, and Stephan
+              Emile, "Sustainability Insights", 20 October 2023,
+              <https://datatracker.ietf.org/doc/draft-almprs-
+              sustainability-insights/>.
 
 Acknowledgments
 
