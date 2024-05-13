@@ -72,10 +72,10 @@ Table of Contents
    1.  Introduction
    2.  Conventions and Definitions
    3.  Network and devices modularity
-   4.  Stateless Gain
-     4.1.  LCA
+   4.  Simple Update
+     4.1.  LCM
      4.2.  Impact on datamodels
-   5.  Controled Gain
+   5.  complex Update
    6.  Gain measurements
    7.  Security Considerations
    8.  IANA Considerations
@@ -101,10 +101,9 @@ Table of Contents
    components in the networks.
 
    The rational is the urgent need to start decreasing resource
-   consumption using simple components replacements.  It can be view as
-   a very basic first deployment of GREEN-bof approach as it enables the
-   life comparison of the power consumption of legacy line cards with
-   eco-designed line cards.
+   consumption by simply replacing device components.  It can be view as
+   a very basic use case of GREEN-bof approach to compare the power
+   consumption of legacy line cards with eco-designed line cards.
 
 2.  Conventions and Definitions
 
@@ -123,22 +122,24 @@ Table of Contents
    between the increase of the live duration of existing devices and
    their replacement with eco-design devices [SUSTINS].
 
-   The same approach will applies at the same time to each individual
-   devices: legacy devices will include progressively more and more
-   ecodesigned components.
+   The same approach will apply at the same time to individual devices:
+   legacy devices will include progressively more and more ecodesigned
+   components.
 
-   Hardware components update can be separate in 2 categories: *
-   "Stateless gain" update : The replacement is simple, 'Just' consume
-   significally less power when running and required less ressources
-   during manufacturing and deployment
+   These hardware components update can be separate in 2 categories:
 
-   *  "Controled gain" update: The replacement of the component impacts
-      software components to enble dynamic power consumption actionable
+   *  "Simple" update : The replacement is simple, a card is 'just'
+      replaced with another one which consume significally less power
+      when running and which required less ressources during its
+      manufacturing and its deployment.
+
+   *  "Complex" update: The replacement of the component impacts
+      software components to enable dynamic power consumption actionable
       using device software components
 
-4.  Stateless Gain
+4.  Simple Update
 
-4.1.  LCA
+4.1.  LCM
 
    Eco Design means that the products and services include environmental
    considerations throughout their entire lifecycle to reduce their
@@ -153,9 +154,10 @@ Table of Contents
    of a product lifecycle.  This starts at product design and
    development [ISO/TR 14062:2002 ]
 
-   The refurbishment of existing devices with eco designed parts is part
-   of LCM. datamodel pieces are needed to track these configuration
-   updates.
+   The refurbishment of existing devices with eco-designed components is
+   part of LCM.  Its assessement at the device level requires some
+   datamodel adaptation to track these configuration updates and to
+   measure the power consumption.
 
 4.2.  Impact on datamodels
 
@@ -168,7 +170,7 @@ Table of Contents
 
    Measurement of the gain.
 
-5.  Controled Gain
+5.  complex Update
 
    The increase of the live duration of existing devices will require
    managing the replacement of software and firmware components of the
