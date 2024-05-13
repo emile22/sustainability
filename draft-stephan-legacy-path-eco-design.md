@@ -68,7 +68,7 @@ Sustainability impacts numerous aspects of the life cycle management (LCM) of de
 
 # Network and devices modularity
 
-Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks. There is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices.
+Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks. There is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUSTINS}}.
 
 The same approach will applies at the same time to each individual devices: legacy devices will include progressively more and more ecodesigned components.
 
@@ -87,8 +87,6 @@ Eco-design can be summarized as the concepts and current practices related to th
 
 The refurbishment of existing devices with eco designed parts is part of LCM. datamodel pieces are needed to track these configuration updates.
 
-## migration
-
 ## Impact on datamodels
 
 modularity: info models to describe that, state, what was changed, what was adapted to sustainability, which part is adapted to eco design, on which aspect
@@ -98,8 +96,6 @@ Does the datamodel need to say that the device modularity has changed ? An examp
 trajectory of migration of legacy devices components to prepare them to eco design :
 
 which parts, which order : firmware, software, hardware (power block)
-
-TODO add link to sust draft and inventory draft
 
 # Controled Gain
 
