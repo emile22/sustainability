@@ -51,7 +51,7 @@ informative:
 
 --- abstract
 
-This draft discusses the usage of inventory information for adapting parts of existing device to eco-design. It is driven by the weight of the manufacturing in the sustainability and resiliency cost wrt to the power consumption.
+This draft discusses the usage of inventory information for adapting parts of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability and resiliency cost wrt to the power consumption.
 
 --- middle
 
@@ -59,7 +59,7 @@ This draft discusses the usage of inventory information for adapting parts of ex
 
 Many companies in Europe have integrated sustainability improvements into their core business strategies. It is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
 
-Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to introduce ecodesign in the networks.
+Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to introduce ecodesigned components in the networks.
 
 
 # Conventions and Definitions
@@ -73,30 +73,13 @@ Networks and theirs devices are modular per design to cope with manufacturing an
 The same approach will applies at the same time to each individual devices: legacy devices will include progressively more and more ecodesigned components.
 
 Hardware components update can be separate in few categories:
- * "static-iso" update : 'Just' consume significally less power when running and required less ressources during manufacturing and deployment
+ * "Stateless gain" update : 'Just' consume significally less power when running and required less ressources during manufacturing and deployment
 
- * "dynamic" update: dynamic power consumption actionable using device software
+ * "Controled gain" update: dynamic power consumption actionable using device software components
 
-## Static update
+# Stateless Gain
 
-In summary: the work on reporting real time power efficiency is started. On the other hand, there are evolutions toward more sustainability which require the reporting of just static information which must be specified.
-
-## Dynamic update
-
-The increase of the live duration of existing devices will require managing the replacement not only of physical components but of any artifacts of the device:
- - Hardware: cards and physical blocks (power ...)
-
-Software:
-
-Currently the design of always-on devices software do not include eco design. Their softwares have to be prepared as their firmware can be adapted to reduce existing hardware power consumptions, bits rates ...
-
-Firmware:
-
-Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts.
-
-# Rational for standardisation at the IETF
-
-There are numerous definitions of eco design:
+## LCA
 
 Eco Design means that the products and services include environmental considerations throughout their entire lifecycle to reduce their environmental impact pursuant to Orange defined internal process(es), which are  based on France’s General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
 
@@ -104,15 +87,13 @@ Eco-design can be summarized as the concepts and current practices related to th
 
 The refurbishment of existing devices with eco designed parts is part of LCM. datamodel pieces are needed to track these configuration updates.
 
+## migration
+
+## Impact on datamodels
+
 modularity: info models to describe that, state, what was changed, what was adapted to sustainability, which part is adapted to eco design, on which aspect
 
 Does the datamodel need to say that the device modularity has changed ? An example is the chnage of a power block to a modular power block
-
-## migration
-
-## LCA
-
-## Impact on datamodels
 
 trajectory of migration of legacy devices components to prepare them to eco design :
 
@@ -120,13 +101,31 @@ which parts, which order : firmware, software, hardware (power block)
 
 TODO add link to sust draft and inventory draft
 
+# Controled Gain
+
+The increase of the live duration of existing devices will require managing the replacement of software and firmware components of the devices:
+
+Currently the design of design of the software components ofalways-on devices do not include, or very recently include, eco design. Their softwares have to be prepared as their firmware can be adapted to reduce existing hardware power consumptions, bits rates ...
+
+Firmware:
+
+Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts.
+
+In summary: the work on reporting real time power efficiency is started. On the other hand, there are evolutions toward more sustainability which require the reporting of just static information which must be specified.
+
+# Gain measurements
+
+There is room for hackathon sessions to compare testing measurements of the gains in power consumption. this may include the power consumption of the testing solutions
+
 # Security Considerations
 
 The tracking of LCM information may reveal to third parties information of the device usages.
 
+Dynamically controled power may introduce weakeness in networking performance and resiliency.
+
 # IANA Considerations
 
-This document has no IANA actions.
+At this step this document has no IANA actions.
 
 --- back
 
