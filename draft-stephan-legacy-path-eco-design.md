@@ -8,13 +8,13 @@ submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 consensus: true
 area: OPS
 workgroup: WG Working Group
-keyword: Sustainability
+keyword: Sustainability, Ressources
 
 venue:
   group: "Green BoF"
   type: "individual"
-  mail: "e-impact@ietf.org"
-  arch: "https://mailarchive.ietf.org/arch/browse/e-impact/"
+  mail: "green-bof@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/green-bof/"
   github: "emile22/sustainability"
   latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design.html"
 
@@ -59,23 +59,33 @@ This draft discusses the usage of inventory information for adapting parts of ex
 
 Many companies in Europe have integrated sustainability improvements into their core business strategies. It is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
 
-Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to increase sustainability performance faster.
+Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to introduce ecodesign in the networks.
 
-We first recall different uses cases where the levels of modularity requirements are different (Aka velodrome, shopping center ...). Then we present how sustainability impacts device modularity (eco design power management, circular economy ...) Device modularity is usually per design, finally we identify device modularity aspects to explicitly specified and standardized.
-
-Eco conception of new devices is not discussed in this draft.
 
 # Conventions and Definitions
 
 {::boilerplate bcp14-tagged}
 
-# Existing devices modularity
+# Network and devices modularity
 
-There is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices. In the mean time both are going to be included in sustainability approaches and they will co-exist in the networks. In addition legacy devices will include more and more ecodesigned components.
+Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks. There is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices.   
+
+The same approach will applies at the same time to each individual devices: legacy devices will include progressively more and more ecodesigned components. 
+
+Hardware components update can be separate in few categories: 
+ * "static-iso" update : 'Just' consume significally less power when running and required less ressources during manufacturing and deployment
+   
+ * "dynamic" update: dynamic power consumption actionable using device software
+
+# Static update
+   
+In summary: the work on reporting real time power efficiency is started. On the other hand, there are evolutions toward more sustainability which require the reporting of just static information which must be specified.
+
+# Dynamic update
+   
 
 The increase of the live duration of existing devices will require managing the replacement not only of physical components but of any artifacts of the device:
-
-Hardware: cards and physical blocks (power ...)
+ - Hardware: cards and physical blocks (power ...)
 
 Software:
 
@@ -85,11 +95,7 @@ Firmware:
 
 Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts.
 
-In summary: the work on reporting real time power efficiency is started. On the other hand, there are evolutions toward more sustainability which require the reporting of just static information which must be specified.
 
-Examples:
-
-case of PoE
 
 # Existing device modularity and eco design
 
@@ -105,7 +111,7 @@ The refurbishment of existing devices with eco designed parts is part of LCM. da
 
 modularity: info models to describe that, state, what was changed, what was adapted to sustainability, which part is adapted to eco design, on which aspect
 
-Does the datamodel need to say that the device is modular, how it is modular ?
+Does the datamodel need to say that the device modularity has changed ? An example is the chnage of a power block to a modular power block 
 
 ## migration
 
@@ -121,7 +127,7 @@ TODO add link to sust draft and inventory draft
 
 # Security Considerations
 
-The tracking of LCM information may reveal information on the owner of the device
+The tracking of LCM information may reveal to third parties information of the device usages.
 
 # IANA Considerations
 
