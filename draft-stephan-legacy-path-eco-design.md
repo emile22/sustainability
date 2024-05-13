@@ -59,8 +59,9 @@ This draft discusses the usage of inventory information for adapting parts of ex
 
 Many companies in Europe have integrated sustainability improvements into their core business strategies. It is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
 
-Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to introduce ecodesigned components in the networks.
+Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to introduce eco-designed components in the networks.
 
+The rational is the urgent need to start decreasing resource consumption using simple components replacements. It can be view as a very basic first deployment of GREEN-bof approach as it enables the life comparison of the power consumption of legacy line cards with eco-designed line cards.
 
 # Conventions and Definitions
 
@@ -72,7 +73,7 @@ Networks and theirs devices are modular per design to cope with manufacturing an
 
 The same approach will applies at the same time to each individual devices: legacy devices will include progressively more and more ecodesigned components.
 
-Hardware components update can be separate in few categories:
+Hardware components update can be separate in 2 categories:
  * "Stateless gain" update : 'Just' consume significally less power when running and required less ressources during manufacturing and deployment
 
  * "Controled gain" update: dynamic power consumption actionable using device software components
@@ -93,9 +94,7 @@ modularity: info models to describe that, state, what was changed, what was adap
 
 Does the datamodel need to say that the device modularity has changed ? An example is the chnage of a power block to a modular power block
 
-trajectory of migration of legacy devices components to prepare them to eco design :
-
-which parts, which order : firmware, software, hardware (power block)
+Measurement of the gain.
 
 # Controled Gain
 
