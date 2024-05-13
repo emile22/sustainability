@@ -51,7 +51,7 @@ informative:
 
 --- abstract
 
-This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability and resiliency cost wrt to the power consumption.
+This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability cost with regard to the power consumption.
 
 --- middle
 
@@ -69,25 +69,25 @@ The rational is the urgent need to start decreasing resource consumption by simp
 
 # Network and devices modularity
 
-Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks. There is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUSTINS}}.
+Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUSTINS}}.
 
-The same approach will apply at the same time to individual devices: legacy devices will include progressively more and more ecodesigned components.
+The same approach will apply at the same time to individual devices: legacy devices will include progressively more and more eco-designed components.
 
 These hardware components update can be separate in 2 categories:
 
  * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consume significally less power when running and which required less ressources during its manufacturing and its deployment.
 
- * "Complex" update: The replacement of the component impacts software components to enable dynamic power consumption actionable using device software components
+ * "Complex" update: The replacement of the component requires the adding or the update of software components to enable dynamic power consumption.
 
 # Simple Update
 
 ## LCM
 
-Eco Design means that the products and services include environmental considerations throughout their entire lifecycle to reduce their environmental impact pursuant to Orange defined internal process(es), which are  based on France’s General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
+Eco Design means that the products and services include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
 
 Eco-design can be summarized as the concepts and current practices related to the integration of environmental aspects into every stage of a product lifecycle. This starts at product design and development [ISO/TR 14062:2002 ]
 
-The refurbishment of existing devices with eco-designed components is part of LCM. Its assessement at the device level requires some datamodel adaptation to track these configuration updates and to measure the power consumption.
+The refurbishment of existing devices with eco-designed components is part of LCM. Its assessement at the device level requires some datamodel adaptation to track these configuration updates and metrics to measure the power consumption.
 
 ## Impact on datamodels
 
@@ -101,13 +101,11 @@ Measurement of the gain.
 
 The increase of the live duration of existing devices will require managing the replacement of software and firmware components of the devices:
 
-Currently the design of design of the software components ofalways-on devices do not include, or very recently include, eco design. Their softwares have to be prepared as their firmware can be adapted to reduce existing hardware power consumptions, bits rates ...
+Currently the design of the software components of networks always-on devices do not include, or very recently include, eco conception. Their softwares have to be prepared as their firmware can be adapted to reduce existing hardware power consumptions, bits rates ...
 
 Firmware:
 
-Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts.
-
-In summary: the work on reporting real time power efficiency is started. On the other hand, there are evolutions toward more sustainability which require the reporting of just static information which must be specified.
+Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts..
 
 # Gain measurements
 
