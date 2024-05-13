@@ -68,11 +68,11 @@ Sustainability impacts numerous aspects of the life cycle management (LCM) of de
 
 # Network and devices modularity
 
-Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks. There is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices.   
+Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks. There is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices.
 
-The same approach will applies at the same time to each individual devices: legacy devices will include progressively more and more ecodesigned components. 
+The same approach will applies at the same time to each individual devices: legacy devices will include progressively more and more ecodesigned components.
 
-Hardware components update can be separate in few categories: 
+Hardware components update can be separate in few categories:
  * "static-iso" update : 'Just' consume significally less power when running and required less ressources during manufacturing and deployment
 
  * "dynamic" update: dynamic power consumption actionable using device software
