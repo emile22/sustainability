@@ -74,9 +74,9 @@ Networks and theirs devices are modular per design to cope with manufacturing an
 The same approach will applies at the same time to each individual devices: legacy devices will include progressively more and more ecodesigned components.
 
 Hardware components update can be separate in 2 categories:
- * "Stateless gain" update : 'Just' consume significally less power when running and required less ressources during manufacturing and deployment
+ * "Stateless gain" update : The replacement is simple, 'Just' consume significally less power when running and required less ressources during manufacturing and deployment
 
- * "Controled gain" update: dynamic power consumption actionable using device software components
+ * "Controled gain" update: The replacement of the component impacts software components to enble dynamic power consumption actionable using device software components
 
 # Stateless Gain
 
