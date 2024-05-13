@@ -51,7 +51,7 @@ informative:
 
 --- abstract
 
-This draft discusses the usage of inventory information for adapting parts of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability and resiliency cost wrt to the power consumption.
+This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability and resiliency cost wrt to the power consumption.
 
 --- middle
 
@@ -75,7 +75,7 @@ The same approach will apply at the same time to individual devices: legacy devi
 
 These hardware components update can be separate in 2 categories:
 
- * "Simple" update : The replacement is simple, a card is 'just' replaced with another one which consume significally less power when running and which required less ressources during its manufacturing and its deployment.
+ * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consume significally less power when running and which required less ressources during its manufacturing and its deployment.
 
  * "Complex" update: The replacement of the component impacts software components to enable dynamic power consumption actionable using device software components
 
