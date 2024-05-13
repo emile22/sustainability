@@ -14,7 +14,7 @@ Expires: 14 November 2024
 Abstract
 
    This draft discusses the usage of inventory information for adapting
-   parts of existing device to eco-design.  It is driven by the weight
+   parts of existing devices to eco-design.  It is driven by the weight
    of the manufacturing in the sustainability and resiliency cost wrt to
    the power consumption.
 
@@ -72,17 +72,17 @@ Table of Contents
    1.  Introduction
    2.  Conventions and Definitions
    3.  Network and devices modularity
-     3.1.  Static update
-     3.2.  Dynamic update
-   4.  Rational for standardisation at the IETF
-     4.1.  migration
-     4.2.  LCA
+   4.  Stateless Gain
+     4.1.  LCA
+     4.2.  migration
      4.3.  Impact on datamodels
-   5.  Security Considerations
-   6.  IANA Considerations
-   7.  References
-     7.1.  Normative References
-     7.2.  Informative References
+   5.  Controled Gain
+   6.  Gain measurements
+   7.  Security Considerations
+   8.  IANA Considerations
+   9.  References
+     9.1.  Normative References
+     9.2.  Informative References
    Acknowledgments
    Author's Address
 
@@ -98,8 +98,8 @@ Table of Contents
 
    Sustainability impacts numerous aspects of the life cycle management
    (LCM) of devices.  In this draft we discuss the advantages of
-   leveraging existing device modularity to introduce ecodesign in the
-   networks.
+   leveraging existing device modularity to introduce ecodesigned
+   components in the networks.
 
 2.  Conventions and Definitions
 
@@ -123,46 +123,16 @@ Table of Contents
    ecodesigned components.
 
    Hardware components update can be separate in few categories: *
-   "static-iso" update : 'Just' consume significally less power when
+   "Stateless gain" update : 'Just' consume significally less power when
    running and required less ressources during manufacturing and
    deployment
 
-   *  "dynamic" update: dynamic power consumption actionable using
-      device software
+   *  "Controled gain" update: dynamic power consumption actionable
+      using device software components
 
-3.1.  Static update
+4.  Stateless Gain
 
-   In summary: the work on reporting real time power efficiency is
-   started.  On the other hand, there are evolutions toward more
-   sustainability which require the reporting of just static information
-   which must be specified.
-
-3.2.  Dynamic update
-
-   The increase of the live duration of existing devices will require
-   managing the replacement not only of physical components but of any
-   artifacts of the device: - Hardware: cards and physical blocks (power
-   ...)
-
-   Software:
-
-   Currently the design of always-on devices software do not include eco
-   design.  Their softwares have to be prepared as their firmware can be
-   adapted to reduce existing hardware power consumptions, bits rates
-   ...
-
-   Firmware:
-
-   Currently the design of the firmware of most of devices do not
-   include eco design.  Firmware must be adapted to receive components
-   from eco conception.  This applies especially to the control of
-   hardware parts recently designed to reduce dynamically their power
-   consumptions, their bits rates or both.  This is covered by works
-   like sustainality and poweff drafts.
-
-4.  Rational for standardisation at the IETF
-
-   There are numerous definitions of eco design:
+4.1.  LCA
 
    Eco Design means that the products and services include environmental
    considerations throughout their entire lifecycle to reduce their
@@ -181,18 +151,16 @@ Table of Contents
    of LCM. datamodel pieces are needed to track these configuration
    updates.
 
+4.2.  migration
+
+4.3.  Impact on datamodels
+
    modularity: info models to describe that, state, what was changed,
    what was adapted to sustainability, which part is adapted to eco
    design, on which aspect
 
    Does the datamodel need to say that the device modularity has changed
    ? An example is the chnage of a power block to a modular power block
-
-4.1.  migration
-
-4.2.  LCA
-
-4.3.  Impact on datamodels
 
    trajectory of migration of legacy devices components to prepare them
    to eco design :
@@ -201,18 +169,52 @@ Table of Contents
 
    TODO add link to sust draft and inventory draft
 
-5.  Security Considerations
+5.  Controled Gain
+
+   The increase of the live duration of existing devices will require
+   managing the replacement of software and firmware components of the
+   devices:
+
+   Currently the design of design of the software components ofalways-on
+   devices do not include, or very recently include, eco design.  Their
+   softwares have to be prepared as their firmware can be adapted to
+   reduce existing hardware power consumptions, bits rates ...
+
+   Firmware:
+
+   Currently the design of the firmware of most of devices do not
+   include eco design.  Firmware must be adapted to receive components
+   from eco conception.  This applies especially to the control of
+   hardware parts recently designed to reduce dynamically their power
+   consumptions, their bits rates or both.  This is covered by works
+   like sustainality and poweff drafts.
+
+   In summary: the work on reporting real time power efficiency is
+   started.  On the other hand, there are evolutions toward more
+   sustainability which require the reporting of just static information
+   which must be specified.
+
+6.  Gain measurements
+
+   There is room for hackathon sessions to compare testing measurements
+   of the gains in power consumption. this may include the power
+   consumption of the testing solutions
+
+7.  Security Considerations
 
    The tracking of LCM information may reveal to third parties
    information of the device usages.
 
-6.  IANA Considerations
+   Dynamically controled power may introduce weakeness in networking
+   performance and resiliency.
 
-   This document has no IANA actions.
+8.  IANA Considerations
 
-7.  References
+   At this step this document has no IANA actions.
 
-7.1.  Normative References
+9.  References
+
+9.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -223,7 +225,7 @@ Table of Contents
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
-7.2.  Informative References
+9.2.  Informative References
 
    [RFC6241]  Enns, R., Ed., Bjorklund, M., Ed., Schoenwaelder, J., Ed.,
               and A. Bierman, Ed., "Network Configuration Protocol
