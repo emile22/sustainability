@@ -74,15 +74,15 @@ The same approach will applies at the same time to each individual devices: lega
 
 Hardware components update can be separate in few categories: 
  * "static-iso" update : 'Just' consume significally less power when running and required less ressources during manufacturing and deployment
-   
+
  * "dynamic" update: dynamic power consumption actionable using device software
 
 ## Static update
-   
+
 In summary: the work on reporting real time power efficiency is started. On the other hand, there are evolutions toward more sustainability which require the reporting of just static information which must be specified.
 
 ## Dynamic update
-   
+
 The increase of the live duration of existing devices will require managing the replacement not only of physical components but of any artifacts of the device:
  - Hardware: cards and physical blocks (power ...)
 
@@ -106,7 +106,7 @@ The refurbishment of existing devices with eco designed parts is part of LCM. da
 
 modularity: info models to describe that, state, what was changed, what was adapted to sustainability, which part is adapted to eco design, on which aspect
 
-Does the datamodel need to say that the device modularity has changed ? An example is the chnage of a power block to a modular power block 
+Does the datamodel need to say that the device modularity has changed ? An example is the chnage of a power block to a modular power block
 
 ## migration
 
