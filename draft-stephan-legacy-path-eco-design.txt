@@ -74,8 +74,7 @@ Table of Contents
    3.  Network and devices modularity
    4.  Stateless Gain
      4.1.  LCA
-     4.2.  migration
-     4.3.  Impact on datamodels
+     4.2.  Impact on datamodels
    5.  Controled Gain
    6.  Gain measurements
    7.  Security Considerations
@@ -116,7 +115,7 @@ Table of Contents
    are going to be progressively replaced with eco-design products.
    Both will co-exist in the networks.  There is a balance to find
    between the increase of the live duration of existing devices and
-   their replacement with eco-design devices.
+   their replacement with eco-design devices [SUSTINS].
 
    The same approach will applies at the same time to each individual
    devices: legacy devices will include progressively more and more
@@ -151,9 +150,7 @@ Table of Contents
    of LCM. datamodel pieces are needed to track these configuration
    updates.
 
-4.2.  migration
-
-4.3.  Impact on datamodels
+4.2.  Impact on datamodels
 
    modularity: info models to describe that, state, what was changed,
    what was adapted to sustainability, which part is adapted to eco
@@ -166,8 +163,6 @@ Table of Contents
    to eco design :
 
    which parts, which order : firmware, software, hardware (power block)
-
-   TODO add link to sust draft and inventory draft
 
 5.  Controled Gain
 
