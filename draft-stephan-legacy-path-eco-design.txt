@@ -4,8 +4,8 @@
 
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
-Intended status: Informational                                7 May 2024
-Expires: 8 November 2024
+Intended status: Informational                               13 May 2024
+Expires: 14 November 2024
 
 
                legacy modularity usage for eco-conception
@@ -29,9 +29,9 @@ About This Document
    design/.
 
    Discussion of this document takes place on the Green BoF individual
-   mailing list (mailto:e-impact@ietf.org), which is archived at
-   https://mailarchive.ietf.org/arch/browse/e-impact/.  Subscribe at
-   https://www.ietf.org/mailman/listinfo/e-impact/.
+   mailing list (mailto:green-bof@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/green-bof/.  Subscribe at
+   https://www.ietf.org/mailman/listinfo/green-bof/.
 
    Source for this draft and an issue tracker can be found at
    https://github.com/emile22/sustainability.
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 November 2024.
+   This Internet-Draft will expire on 14 November 2024.
 
 Copyright Notice
 
@@ -71,17 +71,18 @@ Table of Contents
 
    1.  Introduction
    2.  Conventions and Definitions
-   3.  Existing devices modularity
-   4.  Existing device modularity and eco design
-   5.  Rational for standardisation at the IETF
-     5.1.  migration
-     5.2.  LCA
-   6.  Impact on datamodels
-   7.  Security Considerations
-   8.  IANA Considerations
-   9.  References
-     9.1.  Normative References
-     9.2.  Informative References
+   3.  Network and devices modularity
+     3.1.  Static update
+     3.2.  Dynamic update
+   4.  Rational for standardisation at the IETF
+     4.1.  migration
+     4.2.  LCA
+     4.3.  Impact on datamodels
+   5.  Security Considerations
+   6.  IANA Considerations
+   7.  References
+     7.1.  Normative References
+     7.2.  Informative References
    Acknowledgments
    Author's Address
 
@@ -97,17 +98,8 @@ Table of Contents
 
    Sustainability impacts numerous aspects of the life cycle management
    (LCM) of devices.  In this draft we discuss the advantages of
-   leveraging existing device modularity to increase sustainability
-   performance faster.
-
-   We first recall different uses cases where the levels of modularity
-   requirements are different (Aka velodrome, shopping center ...).
-   Then we present how sustainability impacts device modularity (eco
-   design power management, circular economy ...) Device modularity is
-   usually per design, finally we identify device modularity aspects to
-   explicitly specified and standardized.
-
-   Eco conception of new devices is not discussed in this draft.
+   leveraging existing device modularity to introduce ecodesign in the
+   networks.
 
 2.  Conventions and Definitions
 
@@ -117,19 +109,40 @@ Table of Contents
    BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
 
-3.  Existing devices modularity
+3.  Network and devices modularity
 
-   There is a balance to find between the increase of the live duration
-   of existing devices and their replacement with eco-design devices.
-   In the mean time both are going to be included in sustainability
-   approaches and they will co-exist in the networks.  In addition
-   legacy devices will include more and more ecodesigned components.
+   Networks and theirs devices are modular per design to cope with
+   manufacturing and operationnal obvious constraints.  Existing devices
+   are going to be progressively replaced with eco-design products.
+   Both will co-exist in the networks.  There is a balance to find
+   between the increase of the live duration of existing devices and
+   their replacement with eco-design devices.
+
+   The same approach will applies at the same time to each individual
+   devices: legacy devices will include progressively more and more
+   ecodesigned components.
+
+   Hardware components update can be separate in few categories: *
+   "static-iso" update : 'Just' consume significally less power when
+   running and required less ressources during manufacturing and
+   deployment
+
+   *  "dynamic" update: dynamic power consumption actionable using
+      device software
+
+3.1.  Static update
+
+   In summary: the work on reporting real time power efficiency is
+   started.  On the other hand, there are evolutions toward more
+   sustainability which require the reporting of just static information
+   which must be specified.
+
+3.2.  Dynamic update
 
    The increase of the live duration of existing devices will require
    managing the replacement not only of physical components but of any
-   artifacts of the device:
-
-   Hardware: cards and physical blocks (power ...)
+   artifacts of the device: - Hardware: cards and physical blocks (power
+   ...)
 
    Software:
 
@@ -147,16 +160,7 @@ Table of Contents
    consumptions, their bits rates or both.  This is covered by works
    like sustainality and poweff drafts.
 
-   In summary: the work on reporting real time power efficiency is
-   started.  On the other hand, there are evolutions toward more
-   sustainability which require the reporting of just static information
-   which must be specified.
-
-   Examples:
-
-   case of PoE
-
-4.  Existing device modularity and eco design
+4.  Rational for standardisation at the IETF
 
    There are numerous definitions of eco design:
 
@@ -177,20 +181,18 @@ Table of Contents
    of LCM. datamodel pieces are needed to track these configuration
    updates.
 
-5.  Rational for standardisation at the IETF
-
    modularity: info models to describe that, state, what was changed,
    what was adapted to sustainability, which part is adapted to eco
    design, on which aspect
 
-   Does the datamodel need to say that the device is modular, how it is
-   modular ?
+   Does the datamodel need to say that the device modularity has changed
+   ? An example is the chnage of a power block to a modular power block
 
-5.1.  migration
+4.1.  migration
 
-5.2.  LCA
+4.2.  LCA
 
-6.  Impact on datamodels
+4.3.  Impact on datamodels
 
    trajectory of migration of legacy devices components to prepare them
    to eco design :
@@ -199,18 +201,18 @@ Table of Contents
 
    TODO add link to sust draft and inventory draft
 
-7.  Security Considerations
+5.  Security Considerations
 
-   The tracking of LCM information may reveal information on the owner
-   of the device
+   The tracking of LCM information may reveal to third parties
+   information of the device usages.
 
-8.  IANA Considerations
+6.  IANA Considerations
 
    This document has no IANA actions.
 
-9.  References
+7.  References
 
-9.1.  Normative References
+7.1.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -221,7 +223,7 @@ Table of Contents
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
-9.2.  Informative References
+7.2.  Informative References
 
    [RFC6241]  Enns, R., Ed., Bjorklund, M., Ed., Schoenwaelder, J., Ed.,
               and A. Bierman, Ed., "Network Configuration Protocol
