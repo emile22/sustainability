@@ -77,13 +77,12 @@ Hardware components update can be separate in few categories:
    
  * "dynamic" update: dynamic power consumption actionable using device software
 
-# Static update
+## Static update
    
 In summary: the work on reporting real time power efficiency is started. On the other hand, there are evolutions toward more sustainability which require the reporting of just static information which must be specified.
 
-# Dynamic update
+## Dynamic update
    
-
 The increase of the live duration of existing devices will require managing the replacement not only of physical components but of any artifacts of the device:
  - Hardware: cards and physical blocks (power ...)
 
@@ -95,9 +94,7 @@ Firmware:
 
 Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts.
 
-
-
-# Existing device modularity and eco design
+# Rational for standardisation at the IETF
 
 There are numerous definitions of eco design:
 
@@ -107,8 +104,6 @@ Eco-design can be summarized as the concepts and current practices related to th
 
 The refurbishment of existing devices with eco designed parts is part of LCM. datamodel pieces are needed to track these configuration updates.
 
-# Rational for standardisation at the IETF
-
 modularity: info models to describe that, state, what was changed, what was adapted to sustainability, which part is adapted to eco design, on which aspect
 
 Does the datamodel need to say that the device modularity has changed ? An example is the chnage of a power block to a modular power block 
@@ -117,7 +112,7 @@ Does the datamodel need to say that the device modularity has changed ? An examp
 
 ## LCA
 
-# Impact on datamodels
+## Impact on datamodels
 
 trajectory of migration of legacy devices components to prepare them to eco design :
 
