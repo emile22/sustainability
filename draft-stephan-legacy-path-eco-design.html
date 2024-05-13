@@ -7,7 +7,7 @@
 <title>legacy modularity usage for eco-conception</title>
 <meta content="Emile Stephan" name="author">
 <meta content="
-       This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability and resiliency cost wrt to the power consumption. 
+       This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability cost with regard to the power consumption. 
     " name="description">
 <meta content="xml2rfc 3.21.0" name="generator">
 <meta content="Sustainability, Ressources" name="keyword">
@@ -1060,7 +1060,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <h1 id="title">legacy modularity usage for eco-conception</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability and resiliency cost wrt to the power consumption.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-1">This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability cost with regard to the power consumption.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1205,15 +1205,15 @@ appear in all capitals, as shown here.<a href="#section-2-1" class="pilcrow">¶<
       <h2 id="name-network-and-devices-modular">
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-network-and-devices-modular" class="section-name selfRef">Network and devices modularity</a>
       </h2>
-<p id="section-3-1">Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks. There is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices <span>[<a href="#SUSTINS" class="cite xref">SUSTINS</a>]</span>.<a href="#section-3-1" class="pilcrow">¶</a></p>
-<p id="section-3-2">The same approach will apply at the same time to individual devices: legacy devices will include progressively more and more ecodesigned components.<a href="#section-3-2" class="pilcrow">¶</a></p>
+<p id="section-3-1">Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices <span>[<a href="#SUSTINS" class="cite xref">SUSTINS</a>]</span>.<a href="#section-3-1" class="pilcrow">¶</a></p>
+<p id="section-3-2">The same approach will apply at the same time to individual devices: legacy devices will include progressively more and more eco-designed components.<a href="#section-3-2" class="pilcrow">¶</a></p>
 <p id="section-3-3">These hardware components update can be separate in 2 categories:<a href="#section-3-3" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-3-4.1">
           <p id="section-3-4.1.1">"Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consume significally less power when running and which required less ressources during its manufacturing and its deployment.<a href="#section-3-4.1.1" class="pilcrow">¶</a></p>
 </li>
         <li class="normal" id="section-3-4.2">
-          <p id="section-3-4.2.1">"Complex" update: The replacement of the component impacts software components to enable dynamic power consumption actionable using device software components<a href="#section-3-4.2.1" class="pilcrow">¶</a></p>
+          <p id="section-3-4.2.1">"Complex" update: The replacement of the component requires the adding or the update of software components to enable dynamic power consumption.<a href="#section-3-4.2.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
 </section>
@@ -1228,9 +1228,9 @@ appear in all capitals, as shown here.<a href="#section-2-1" class="pilcrow">¶<
         <h3 id="name-lcm">
 <a href="#section-4.1" class="section-number selfRef">4.1. </a><a href="#name-lcm" class="section-name selfRef">LCM</a>
         </h3>
-<p id="section-4.1-1">Eco Design means that the products and services include environmental considerations throughout their entire lifecycle to reduce their environmental impact pursuant to Orange defined internal process(es), which are  based on France’s General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.<a href="#section-4.1-1" class="pilcrow">¶</a></p>
+<p id="section-4.1-1">Eco Design means that the products and services include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.<a href="#section-4.1-1" class="pilcrow">¶</a></p>
 <p id="section-4.1-2">Eco-design can be summarized as the concepts and current practices related to the integration of environmental aspects into every stage of a product lifecycle. This starts at product design and development [ISO/TR 14062:2002 ]<a href="#section-4.1-2" class="pilcrow">¶</a></p>
-<p id="section-4.1-3">The refurbishment of existing devices with eco-designed components is part of LCM. Its assessement at the device level requires some datamodel adaptation to track these configuration updates and to measure the power consumption.<a href="#section-4.1-3" class="pilcrow">¶</a></p>
+<p id="section-4.1-3">The refurbishment of existing devices with eco-designed components is part of LCM. Its assessement at the device level requires some datamodel adaptation to track these configuration updates and metrics to measure the power consumption.<a href="#section-4.1-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="impact-on-datamodels">
@@ -1251,10 +1251,9 @@ appear in all capitals, as shown here.<a href="#section-2-1" class="pilcrow">¶<
 <a href="#section-5" class="section-number selfRef">5. </a><a href="#name-complex-update" class="section-name selfRef">complex Update</a>
       </h2>
 <p id="section-5-1">The increase of the live duration of existing devices will require managing the replacement of software and firmware components of the devices:<a href="#section-5-1" class="pilcrow">¶</a></p>
-<p id="section-5-2">Currently the design of design of the software components ofalways-on devices do not include, or very recently include, eco design. Their softwares have to be prepared as their firmware can be adapted to reduce existing hardware power consumptions, bits rates ...<a href="#section-5-2" class="pilcrow">¶</a></p>
+<p id="section-5-2">Currently the design of the software components of networks always-on devices do not include, or very recently include, eco conception. Their softwares have to be prepared as their firmware can be adapted to reduce existing hardware power consumptions, bits rates ...<a href="#section-5-2" class="pilcrow">¶</a></p>
 <p id="section-5-3">Firmware:<a href="#section-5-3" class="pilcrow">¶</a></p>
-<p id="section-5-4">Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts.<a href="#section-5-4" class="pilcrow">¶</a></p>
-<p id="section-5-5">In summary: the work on reporting real time power efficiency is started. On the other hand, there are evolutions toward more sustainability which require the reporting of just static information which must be specified.<a href="#section-5-5" class="pilcrow">¶</a></p>
+<p id="section-5-4">Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts..<a href="#section-5-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="gain-measurements">
