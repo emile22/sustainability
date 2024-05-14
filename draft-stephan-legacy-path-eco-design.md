@@ -101,7 +101,7 @@ Currently the design of the software components of networks always-on devices do
 
 # Gain measurements
 
-There is room for hackathon sessions to compare testing measurements of the gains in power consumption.
+There is room for hackathon sessions to compare testing measurements of the gains in power consumption. It applies separatly to any hardware and sofware components
 
 # Security Considerations
 
