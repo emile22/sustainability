@@ -85,7 +85,7 @@ The upgrade of legacy devices with eco-designed components can be separate in 2 
 
 # Simple Update
 
-Such deployment can started immediatly as there is no dependency on management solutions. In addtion assessement of environmental and power gains can be done manually from the datasheets of the manufacturer. 
+Such deployment can started immediatly as there is no dependency on management solutions. In addtion assessement of environmental and power gains can be done manually from the datasheets of the manufacturer.
 
 Nevertheless, in a way to scale, inventory requires to distinguish legacy devices which include eco-designed components and these components inside the device.
 
