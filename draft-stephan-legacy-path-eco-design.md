@@ -71,33 +71,31 @@ The rational is the urgent need to start decreasing resource consumption by simp
 
 Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUSTINS}}.
 
-The same approach will apply at the same time to individual devices: legacy devices will include progressively more and more eco-designed components.
-
-These hardware components update can be separate in 2 categories:
-
- * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consume significally less power when running and which required less ressources during its manufacturing and its deployment.
-
- * "Complex" update: The replacement of the component requires the adding or the update of software components to enable dynamic power consumption.
-
-# Simple Update
-
-## LCM
+The same approach will apply at the same time to individual devices: legacy devices will include progressively more and more eco-designed hardware ans sofware components.
 
 Eco Design means that the products and services include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
 
 Eco-design can be summarized as the concepts and current practices related to the integration of environmental aspects into every stage of a product lifecycle. This starts at product design and development [ISO/TR 14062:2002 ]
 
-The refurbishment of existing devices with eco-designed components is part of LCM. Its assessement at the device level requires some datamodel adaptation to track these configuration updates and metrics to measure the power consumption.
+The upgrade of legacy devices with eco-designed components can be separate in 2 categories:
 
-## Impact on datamodels
+ * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consume significally less power by itself when running and which required less ressources during its manufacturing and its deployment.
 
-Operations must be able to distinguish legacy devices which include eco-designed components and these components inside the device. 
+ * "Complex" update: The replacement of the component requires the adding or the update of software components to enable dynamic power consumption.
+
+# Simple Update
+
+Such deployment can started immediatly as there is no dependency on management solutions. In addtion assessement of environmental and power gains can be done manually from the datasheets of the manufacturer. 
+
+Nevertheless, in a way to scale, inventory requires to distinguish legacy devices which include eco-designed components and these components inside the device.
 
 # Complex Update
 
 The increase of the live duration of existing devices will require managing the replacement of software and firmware components of the devices:
 
-Currently the design of the software components of networks always-on devices do not include, or very recently include, dynamic power management. Their softwares components must be added as their firmwares support reducing dynamically hardware power consumptions, bits rates...
+Currently the design of the software components of networks always-on devices do not include, or very recently include, dynamic power management. The replacement of adding of software Their software components must be added as their firmwares support reducing dynamically hardware power consumptions, bits rates...
+
+The refurbishment of existing devices with eco-designed components is part of LCM. Its assessement at the device level requires some datamodel adaptation to track these configuration updates and metrics to measure the power consumption.
 
 # Gain measurements
 
