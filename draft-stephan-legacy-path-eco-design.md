@@ -35,7 +35,12 @@ normative:
 
 informative:
   RFC6241:
-
+  
+  GREEN-BOF:
+    title: "BOF proposal for GREEN WG Creation"
+    date: 2024-05-10
+    target: "https://github.com/marisolpalmero/GREEN-bof"
+    
   SUSTINS:
     title: "Sustainability Insights"
     date: 2023-10-20
@@ -59,9 +64,9 @@ This draft discusses the usage of inventory information for assessing the adapta
 
 Many companies in Europe have integrated sustainability improvements into their core business strategies. It is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
 
-Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to introduce eco-designed components in the networks.
+Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing devices modularity to introduce eco-designed components in the networks while being able to assess the gains in sustainability.
 
-The rational is the urgent need to start decreasing resource consumption by simply replacing devices components. It can be view as a very basic use case of GREEN-bof approach which enable the comparison  of power consumption of legacy line cards with eco-designed line cards.
+The rational is the urgent need to start decreasing resource consumption by simply replacing devices components. It can be view as a very basic use case of GREEN-bof {{GREEN-BOF}} approach which enable the comparison  of power consumption of legacy line cards with eco-designed line cards.
 
 # Conventions and Definitions
 
@@ -79,13 +84,13 @@ Eco-design can be summarized as the concepts and current practices related to th
 
 The upgrade of legacy devices with eco-designed components can be separate in 2 categories:
 
- * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consume significally less power by itself when running and which required less ressources during its manufacturing and its deployment.
+ * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consumes significally less power by itself when running and which required less ressources during its manufacturing and its deployment.
 
  * "Complex" update: The replacement of the component requires the adding or the update of software components to enable dynamic power consumption.
 
 # Simple Update
 
-Such deployment can started immediatly as there is no dependency on management solutions. In addtion assessement of environmental and power gains can be done manually from the datasheets of the manufacturer.
+Network operators update their device since decades.Such deployment can started immediatly as there is no dependency on management solutions. In addition assessement of environmental and power gains can be done manually from the datasheets of the manufacturer.
 
 Nevertheless, in a way to scale, inventory requires to distinguish legacy devices which include eco-designed components and these components inside the device.
 
