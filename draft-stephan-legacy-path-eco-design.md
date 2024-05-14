@@ -35,12 +35,12 @@ normative:
 
 informative:
   RFC6241:
-  
+
   GREEN-BOF:
     title: "BOF proposal for GREEN WG Creation"
     date: 2024-05-10
     target: "https://github.com/marisolpalmero/GREEN-bof"
-    
+
   SUSTINS:
     title: "Sustainability Insights"
     date: 2023-10-20
