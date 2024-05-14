@@ -95,14 +95,15 @@ Table of Contents
 
    Sustainability impacts numerous aspects of the life cycle management
    (LCM) of devices.  In this draft we discuss the advantages of
-   leveraging existing device modularity to introduce eco-designed
-   components in the networks.
+   leveraging existing devices modularity to introduce eco-designed
+   components in the networks while being able to assess the gains in
+   sustainability.
 
    The rational is the urgent need to start decreasing resource
    consumption by simply replacing devices components.  It can be view
-   as a very basic use case of GREEN-bof approach which enable the
-   comparison of power consumption of legacy line cards with eco-
-   designed line cards.
+   as a very basic use case of GREEN-bof [GREEN-BOF] approach which
+   enable the comparison of power consumption of legacy line cards with
+   eco-designed line cards.
 
 2.  Conventions and Definitions
 
@@ -141,9 +142,9 @@ Table of Contents
    separate in 2 categories:
 
    *  "Simple" update : The adaptation is simple, a card is 'just'
-      replaced with another one which consume significally less power by
-      itself when running and which required less ressources during its
-      manufacturing and its deployment.
+      replaced with another one which consumes significally less power
+      by itself when running and which required less ressources during
+      its manufacturing and its deployment.
 
    *  "Complex" update: The replacement of the component requires the
       adding or the update of software components to enable dynamic
@@ -151,10 +152,10 @@ Table of Contents
 
 4.  Simple Update
 
-   Such deployment can started immediatly as there is no dependency on
-   management solutions.  In addtion assessement of environmental and
-   power gains can be done manually from the datasheets of the
-   manufacturer.
+   Network operators update their device since decades.Such deployment
+   can started immediatly as there is no dependency on management
+   solutions.  In addition assessement of environmental and power gains
+   can be done manually from the datasheets of the manufacturer.
 
    Nevertheless, in a way to scale, inventory requires to distinguish
    legacy devices which include eco-designed components and these
@@ -206,6 +207,10 @@ Table of Contents
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
 9.2.  Informative References
+
+   [GREEN-BOF]
+              "BOF proposal for GREEN WG Creation", 10 May 2024,
+              <https://github.com/marisolpalmero/GREEN-bof>.
 
    [RFC6241]  Enns, R., Ed., Bjorklund, M., Ed., Schoenwaelder, J., Ed.,
               and A. Bierman, Ed., "Network Configuration Protocol
