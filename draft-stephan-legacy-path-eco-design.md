@@ -61,7 +61,7 @@ Many companies in Europe have integrated sustainability improvements into their 
 
 Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing device modularity to introduce eco-designed components in the networks.
 
-The rational is the urgent need to start decreasing resource consumption by simply replacing device components. It can be view as a very basic use case of GREEN-bof approach to compare the power consumption of legacy line cards with eco-designed line cards.
+The rational is the urgent need to start decreasing resource consumption by simply replacing devices components. It can be view as a very basic use case of GREEN-bof approach which enable the comparison  of power consumption of legacy line cards with eco-designed line cards.
 
 # Conventions and Definitions
 
@@ -91,31 +91,21 @@ The refurbishment of existing devices with eco-designed components is part of LC
 
 ## Impact on datamodels
 
-modularity: info models to describe that, state, what was changed, what was adapted to sustainability, which part is adapted to eco design, on which aspect
+Operations must be able to distinguish legacy devices which include eco-designed components and these components inside the device. 
 
-Does the datamodel need to say that the device modularity has changed ? An example is the chnage of a power block to a modular power block
-
-Measurement of the gain.
-
-# complex Update
+# Complex Update
 
 The increase of the live duration of existing devices will require managing the replacement of software and firmware components of the devices:
 
-Currently the design of the software components of networks always-on devices do not include, or very recently include, eco conception. Their softwares have to be prepared as their firmware can be adapted to reduce existing hardware power consumptions, bits rates ...
-
-Firmware:
-
-Currently the design of the firmware of most of devices do not include eco design. Firmware must be adapted to receive components from eco conception. This applies especially to the control of hardware parts recently designed to reduce dynamically their power consumptions, their bits rates or both. This is covered by works like sustainality and poweff drafts..
+Currently the design of the software components of networks always-on devices do not include, or very recently include, dynamic power management. Their softwares components must be added as their firmwares support reducing dynamically hardware power consumptions, bits rates...
 
 # Gain measurements
 
-There is room for hackathon sessions to compare testing measurements of the gains in power consumption. this may include the power consumption of the testing solutions
+There is room for hackathon sessions to compare testing measurements of the gains in power consumption.
 
 # Security Considerations
 
 The tracking of LCM information may reveal to third parties information of the device usages.
-
-Dynamically controled power may introduce weakeness in networking performance and resiliency.
 
 # IANA Considerations
 
