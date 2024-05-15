@@ -122,7 +122,7 @@ Table of Contents
    between the increase of the live duration of existing devices and
    their replacement with eco-design devices [SUST-INS].
 
-   The same approach will apply at the same time to individual devices:
+   The same approach applies at the same time to individual devices:
    legacy devices will include progressively more and more eco-designed
    hardware ans sofware components.
 
