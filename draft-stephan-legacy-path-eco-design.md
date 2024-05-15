@@ -31,10 +31,8 @@ author:
    email: emile.stephan@gmail.com
 
 normative:
-  RFC2119:
 
 informative:
-  RFC6241:
 
   GREEN-BOF:
     title: "BOF proposal for GREEN WG Creation"
