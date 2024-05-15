@@ -63,7 +63,7 @@ informative:
 			- ins: Snezana Mitrovic
 			- ins: Marisol Palmero
 			- ins: Gonzalo Salgueiro
-    
+
 --- abstract
 
 This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability cost with regard to the power consumption.
@@ -112,9 +112,9 @@ The update of legacy networks and devices to support dynamic power management is
 
   * hardware component must support variation of power, of bit rate or only being shutdown and restarted
   * firmware component must expose the monitoring and the actionable functions to the software components
-  * software component must be updated od added to operate these new capabilities 
+  * software component must be updated or added to operate these new capabilities
 
-Legacy hardware component are designed for being rarely stop and re-started. On the very short term the rythm of start/stop supported by the component must be exposed to the management interface.
+Legacy hardware component are designed for being rarely stop and re-started. The rythm of start/stop supported by the component must be documented immediatly in the datasheet.
 
 # Gain measurements
 
