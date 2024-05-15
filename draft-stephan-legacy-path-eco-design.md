@@ -96,7 +96,7 @@ The upgrade of legacy devices with eco-designed components can be separate in 2 
 
  * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consumes significally less power by itself when running and which required less ressources during its manufacturing and its deployment.
 
- * "Complex" update: The replacement of the component requires the adding or the update of software components to enable dynamic power consumption.
+ * "Complex" update: The replacement of the card requires the adding or the update of software components to enable dynamic power consumption.
 
 # Simple Update
 
@@ -106,22 +106,21 @@ In the mid term, in a way to scale the assessement, inventory (TODO add ref to I
 
 # Complex Update
 
-Currently network devices are mostly always-on. The design of their software components do not include dynamic power management. 
+Currently network devices are mostly always-on. The design of their software components do not include dynamic power management.
 
 The update of legacy networks and devices to support dynamic power management is something complex because it impacts the different type of components:
 
-  * hardware must support variation of power, of bit rate ...
-  * firmware must expose the monitoring and the actionable functions to the software components
-  * software must modify the confiuration 
+  * hardware component must support variation of power, of bit rate or only being shutdown and restarted
+  * firmware component must expose the monitoring and the actionable functions to the software components
+  * software component must be updated od added to operate these new capabilities 
 
-Legacy hardware component are designed for being rarely stop and re-started. On the short term the rythm of this information must be exposed to management interface
-
-on the short term 
-Its assessement at the device level requires datamodels augmentation (TODO add ref to IVY) to track these configuration updates and metrics to measure the power consumption {{POWEFF}}. In addition
+Legacy hardware component are designed for being rarely stop and re-started. On the very short term the rythm of start/stop supported by the component must be exposed to the management interface.
 
 # Gain measurements
 
-There is room for hackathon sessions to compare testing measurements of the gains in power consumption.
+On the short term, as promoted by the GREEN-BoF, the assessement at the device level requires datamodels augmentation (TODO add ref to IVY) to expose these configuration updates and metrics to measure the power consumption {{POWEFF}}.
+
+There is room for hackathon sessions to compare asessment methods.
 
 # Security Considerations
 
