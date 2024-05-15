@@ -4,8 +4,8 @@
 
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
-Intended status: Informational                               14 May 2024
-Expires: 15 November 2024
+Intended status: Informational                               15 May 2024
+Expires: 16 November 2024
 
 
                legacy modularity usage for eco-conception
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 15 November 2024.
+   This Internet-Draft will expire on 16 November 2024.
 
 Copyright Notice
 
@@ -120,7 +120,7 @@ Table of Contents
    are going to be progressively replaced with eco-design products.
    Both will co-exist in the networks as there is a balance to find
    between the increase of the live duration of existing devices and
-   their replacement with eco-design devices [SUSTINS].
+   their replacement with eco-design devices [SUST-INS].
 
    The same approach will apply at the same time to individual devices:
    legacy devices will include progressively more and more eco-designed
@@ -146,48 +146,59 @@ Table of Contents
       by itself when running and which required less ressources during
       its manufacturing and its deployment.
 
-   *  "Complex" update: The replacement of the component requires the
-      adding or the update of software components to enable dynamic
-      power consumption.
+   *  "Complex" update: The replacement of the card requires the adding
+      or the update of software components to enable dynamic power
+      consumption.
 
 4.  Simple Update
 
-   Network operators update their device since decades.Such deployment
-   can started immediatly as there is no dependency on management
-   solutions.  In addition assessement of environmental and power gains
-   can be done manually from the datasheets of the manufacturer.
+   Network operators update their devices components since decades.  By
+   consequence, update with eco-designed components can started
+   immediatly as there is no dependency on management solutions.  The
+   assessement of environmental and power gains can be done manually
+   from the datasheets of the manufacturer or using an adhoc processing.
 
-   Nevertheless, in a way to scale, inventory requires to distinguish
-   legacy devices which include eco-designed components and these
-   components inside the device.
+   In the mid term, in a way to scale the assessement, inventory (TODO
+   add ref to IVY) requires to distinguish both legacy devices which
+   include eco-designed components and these components inside the
+   device.  This must not delay the initial deployment of eco-designed
+   components in legacy devices
 
 5.  Complex Update
 
-   The increase of the live duration of existing devices will require
-   managing the replacement of software and firmware components of the
-   devices:
+   Currently network devices are mostly always-on.  The design of their
+   software components do not include dynamic power management.
 
-   Currently the design of the software components of networks always-on
-   devices do not include, or very recently include, dynamic power
-   management.  The replacement of adding of software Their software
-   components must be added as their firmwares support reducing
-   dynamically hardware power consumptions, bits rates...
+   The update of legacy networks and devices to support dynamic power
+   management is something complex because it impacts the different type
+   of components:
 
-   The refurbishment of existing devices with eco-designed components is
-   part of LCM.  Its assessement at the device level requires some
-   datamodel adaptation to track these configuration updates and metrics
-   to measure the power consumption.
+   *  hardware component must support variation of power, of bit rate or
+      only being shutdown and restarted
+
+   *  firmware component must expose the monitoring and the actionable
+      functions to the software components
+
+   *  software component must be updated or added to operate these new
+      capabilities
+
+   Legacy hardware component are designed for being rarely stop and re-
+   started.  The rythm of start/stop supported by the component must be
+   documented immediatly in the datasheet.
 
 6.  Gain measurements
 
-   There is room for hackathon sessions to compare testing measurements
-   of the gains in power consumption.  It applies separatly to any
-   hardware and sofware components
+   On the short term, as promoted by the GREEN-BoF, the assessement at
+   the device level requires datamodels augmentation (TODO add ref to
+   IVY) to expose these configuration updates and metrics to measure the
+   power consumption [POWEFF].
+
+   There is room for hackathon sessions to compare asessment methods.
 
 7.  Security Considerations
 
-   The tracking of LCM information may reveal to third parties
-   information of the device usages.
+   The tracking of LCM information may reveal information of the device
+   usages.
 
 8.  IANA Considerations
 
@@ -212,14 +223,19 @@ Table of Contents
               "BOF proposal for GREEN WG Creation", 10 May 2024,
               <https://github.com/marisolpalmero/GREEN-bof>.
 
+   [POWEFF]   Jan Lindblad, Snezana Mitrovic, Marisol Palmero, and
+              Gonzalo Salgueiro, "Power and Energy Efficiency", 7 May
+              2024, <https://datatracker.ietf.org/doc/html/draft-opsawg-
+              poweff>.
+
    [RFC6241]  Enns, R., Ed., Bjorklund, M., Ed., Schoenwaelder, J., Ed.,
               and A. Bierman, Ed., "Network Configuration Protocol
               (NETCONF)", RFC 6241, DOI 10.17487/RFC6241, June 2011,
               <https://www.rfc-editor.org/rfc/rfc6241>.
 
-   [SUSTINS]  Per Andersson, Jan Lindblad, Snezana Mitrovic, Marisol
+   [SUST-INS] Per Andersson, Jan Lindblad, Snezana Mitrovic, Marisol
               Palmero, Esther Roure, Gonzalo Salgueiro, and Stephan
-              Emile, "Sustainability Insights", 20 October 2023,
+              Emile, "Power and Energy Efficiency", 20 October 2023,
               <https://datatracker.ietf.org/doc/draft-almprs-
               sustainability-insights/>.
 
