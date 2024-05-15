@@ -100,28 +100,32 @@ The upgrade of legacy devices with eco-designed components can be separate in 2 
 
 # Simple Update
 
-Network operators update their device since decades.Such deployment can started immediatly as there is no dependency on management solutions. In addition assessement of environmental and power gains can be done manually from the datasheets of the manufacturer.
+Network operators update their devices components since decades. By consequence, update with eco-designed components can started immediatly as there is no dependency on management solutions. The assessement of environmental and power gains can be done manually from the datasheets of the manufacturer or using an adhoc processing.
 
-Nevertheless, in a way to scale, inventory requires to distinguish legacy devices which include eco-designed components and these components inside the device {{POWEFF}}.
-
-# Sofware Update
-
+In the mid term, in a way to scale the assessement, inventory (TODO add ref to IVY) requires to distinguish both legacy devices which include eco-designed components and these components inside the device. This must not delay the initial deployment of eco-designed components in legacy devices
 
 # Complex Update
 
-The increase of the live duration of existing devices will require managing the replacement of software and firmware components of the devices:
+Currently network devices are mostly always-on. The design of their software components do not include dynamic power management. 
 
-Currently the design of the software components of networks always-on devices do not include, or very recently include, dynamic power management. The replacement of adding of software Their software components must be added as their firmwares support reducing dynamically hardware power consumptions, bits rates...
+The update of legacy networks and devices to support dynamic power management is something complex because it impacts the different type of components:
 
-The refurbishment of existing devices with eco-designed components is part of LCM. Its assessement at the device level requires some datamodel adaptation to track these configuration updates and metrics to measure the power consumption.
+  * hardware must support variation of power, of bit rate ...
+  * firmware must expose the monitoring and the actionable functions to the software components
+  * software must modify the confiuration 
+
+Legacy hardware component are designed for being rarely stop and re-started. On the short term the rythm of this information must be exposed to management interface
+
+on the short term 
+Its assessement at the device level requires datamodels augmentation (TODO add ref to IVY) to track these configuration updates and metrics to measure the power consumption {{POWEFF}}. In addition
 
 # Gain measurements
 
-There is room for hackathon sessions to compare testing measurements of the gains in power consumption. It applies separatly to any hardware and sofware components
+There is room for hackathon sessions to compare testing measurements of the gains in power consumption.
 
 # Security Considerations
 
-The tracking of LCM information may reveal to third parties information of the device usages.
+The tracking of LCM information may reveal information of the device usages.
 
 # IANA Considerations
 
