@@ -228,11 +228,6 @@ Table of Contents
               2024, <https://datatracker.ietf.org/doc/html/draft-opsawg-
               poweff>.
 
-   [RFC6241]  Enns, R., Ed., Bjorklund, M., Ed., Schoenwaelder, J., Ed.,
-              and A. Bierman, Ed., "Network Configuration Protocol
-              (NETCONF)", RFC 6241, DOI 10.17487/RFC6241, June 2011,
-              <https://www.rfc-editor.org/rfc/rfc6241>.
-
    [SUST-INS] Per Andersson, Jan Lindblad, Snezana Mitrovic, Marisol
               Palmero, Esther Roure, Gonzalo Salgueiro, and Stephan
               Emile, "Power and Energy Efficiency", 20 October 2023,
