@@ -84,7 +84,7 @@ The rational is the urgent need to start decreasing resource consumption by simp
 
 Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUST-INS}}.
 
-The same approach will apply at the same time to individual devices: legacy devices will include progressively more and more eco-designed hardware ans sofware components.
+The same approach applies at the same time to individual devices: legacy devices will include progressively more and more eco-designed hardware ans sofware components.
 
 Eco Design means that the products and services include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
 
