@@ -36,13 +36,18 @@ RFC2119:
 
 informative:
 
+  IVY-WG:
+    title: "Network Inventory YANG"
+    date: 2023-06-23
+    target: "https://datatracker.ietf.org/wg/ivy"
+
   GREEN-BOF:
     title: "BOF proposal for GREEN WG Creation"
     date: 2024-05-10
     target: "https://github.com/marisolpalmero/GREEN-bof"
 
   SUST-INS:
-    title: "Power and Energy Efficiency"
+    title: "Sustainability Insights"
     date: 2023-10-20
     target: "https://datatracker.ietf.org/doc/draft-almprs-sustainability-insights/"
     author:
@@ -86,13 +91,13 @@ The rational is the urgent need to start decreasing resource consumption by simp
 
 Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUST-INS}}.
 
-The same approach applies at the same time to individual devices: legacy devices will include progressively more and more eco-designed hardware ans sofware components.
+The same approach applies at the same time to individual devices: legacy devices will include progressively more and more eco-designed hardware components.
 
-Eco Design means that the products and services include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
+Eco Design means that the products include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services (“RGESN”) at  https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
 
 Eco-design can be summarized as the concepts and current practices related to the integration of environmental aspects into every stage of a product lifecycle. This starts at product design and development [ISO/TR 14062:2002 ]
 
-The upgrade of legacy devices with eco-designed components can be separate in 2 categories:
+The upgrade of legacy devices with eco-designed cards can be separate in 2 categories:
 
  * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consumes significally less power by itself when running and which required less ressources during its manufacturing and its deployment.
 
@@ -102,7 +107,7 @@ The upgrade of legacy devices with eco-designed components can be separate in 2 
 
 Network operators update their devices components since decades. By consequence, update with eco-designed components can started immediatly as there is no dependency on management solutions. The assessement of environmental and power gains can be done manually from the datasheets of the manufacturer or using an adhoc processing.
 
-In the mid term, in a way to scale the assessement, inventory (TODO add ref to IVY) requires to distinguish both legacy devices which include eco-designed components and these components inside the device. This must not delay the initial deployment of eco-designed components in legacy devices
+In the mid term, in a way to scale the assessement, inventory {{IVY-WG}} requires to distinguish both legacy devices which include eco-designed components and these components inside the device. This must not delay the initial deployment of eco-designed components in legacy devices
 
 # Complex Update
 
@@ -118,7 +123,7 @@ Legacy hardware component are designed for being rarely stop and re-started. The
 
 # Gain measurements
 
-On the short term, as promoted by the GREEN-BoF, the assessement at the device level requires datamodels augmentation (TODO add ref to IVY) to expose these configuration updates and metrics to measure the power consumption {{POWEFF}}.
+On the short term, as promoted by the GREEN-BoF, the assessement at the device level requires datamodels augmentation {{IVY-WG}} to expose these configuration updates and metrics to measure the power consumption {{POWEFF}}.
 
 There is room for hackathon sessions to compare asessment methods.
 
