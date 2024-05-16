@@ -101,9 +101,7 @@ Table of Contents
 
    The rational is the urgent need to start decreasing resource
    consumption by simply replacing devices components.  It can be view
-   as a very basic use case of GREEN-bof [GREEN-BOF] approach which
-   enable the comparison of power consumption of legacy line cards with
-   eco-designed line cards.
+   as a very basic use case of GREEN-bof [GREEN-BOF] approach.
 
 2.  Conventions and Definitions
 
@@ -162,7 +160,10 @@ Table of Contents
    [IVY-WG] requires to distinguish both legacy devices which include
    eco-designed components and these components inside the device.  This
    must not delay the initial deployment of eco-designed components in
-   legacy devices
+   legacy devices.
+
+   a first proposal consists in documenting the information available to
+   do it manually or using web scaping ...
 
 5.  Complex Update
 
