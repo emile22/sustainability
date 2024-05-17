@@ -109,7 +109,7 @@ Network operators update their devices components since decades. By consequence,
 
 In the mid term, in a way to scale the assessement, inventory {{IVY-WG}} requires to distinguish both legacy devices which include eco-designed components and these components inside the device. This must not delay the initial deployment of eco-designed components in legacy devices.
 
-a first proposal consists in documenting the information available to do it manually or using web scaping ...
+It is clear that information for doing static assessement is spread over many media or OPS interfaces (datasheet, Web URL, CLI , YANG, MIB, IPFIX ...). A proposal consists in documenting how to do static assessement for a set of devices based on the volontaring.
 
 # Complex Update
 
@@ -125,7 +125,7 @@ Legacy hardware component are designed for being rarely stop and re-started. The
 
 # Gain measurements
 
-On the short term, as promoted by the GREEN-BoF, the assessement at the device level requires datamodels augmentation {{IVY-WG}} to expose these configuration updates and metrics to measure the power consumption {{POWEFF}}.
+On the short term, as promoted by the GREEN-BoF, the assessement at the device level requires firtly datamodels augmentation {{IVY-WG}} to expose these configuration updates and then metrics to measure the power consumption {{POWEFF}}.
 
 There is room for hackathon sessions to compare asessment methods.
 
