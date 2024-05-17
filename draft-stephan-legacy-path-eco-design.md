@@ -107,9 +107,9 @@ The upgrade of legacy devices with eco-designed cards can be separate in 2 categ
 
 Network operators update their devices components since decades. By consequence, update with eco-designed components can started immediatly as there is no dependency on management solutions. The assessement of environmental and power gains can be done manually from the datasheets of the manufacturer or using an adhoc processing.
 
-In the mid term, in a way to scale the assessement, inventory {{IVY-WG}} requires to distinguish both legacy devices which include eco-designed components and these components inside the device. This must not delay the initial deployment of eco-designed components in legacy devices.
+It is clear that information for doing static assessement is spread over many media or OPS interfaces (datasheet, Web URL, CLI , YANG, MIB, IPFIX ...). A proposal consists in documenting how to do static assessement for a set of devices based on volontaring {{GREEN-BOF}}.
 
-It is clear that information for doing static assessement is spread over many media or OPS interfaces (datasheet, Web URL, CLI , YANG, MIB, IPFIX ...). A proposal consists in documenting how to do static assessement for a set of devices based on the volontaring.
+In the mid term, in a way to scale the assessement, inventory {{IVY-WG}} requires to distinguish both legacy devices which include eco-designed components and these eco-designed components inside these devices. This must not delay the initial deployment of eco-designed components in legacy devices.
 
 # Complex Update
 
@@ -121,7 +121,7 @@ The update of legacy networks and devices to support dynamic power management is
   * firmware component must expose the monitoring and the actionable functions to the software components
   * software component must be updated or added to operate these new capabilities
 
-Legacy hardware component are designed for being rarely stop and re-started. The rythm of start/stop supported by the component must be documented immediatly in the datasheet.
+Legacy hardware components are designed for being rarely stoped and re-started. The rythm of start/stop supported by such components must be documented to prevent wrong usage of their real capacity. This must be present in the datasheet and exposed by the components themselve. 
 
 # Gain measurements
 
