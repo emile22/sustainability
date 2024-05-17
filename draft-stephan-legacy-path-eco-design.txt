@@ -156,16 +156,16 @@ Table of Contents
    assessement of environmental and power gains can be done manually
    from the datasheets of the manufacturer or using an adhoc processing.
 
-   In the mid term, in a way to scale the assessement, inventory
-   [IVY-WG] requires to distinguish both legacy devices which include
-   eco-designed components and these components inside the device.  This
-   must not delay the initial deployment of eco-designed components in
-   legacy devices.
-
    It is clear that information for doing static assessement is spread
    over many media or OPS interfaces (datasheet, Web URL, CLI , YANG,
    MIB, IPFIX ...).  A proposal consists in documenting how to do static
-   assessement for a set of devices based on the volontaring.
+   assessement for a set of devices based on volontaring [GREEN-BOF].
+
+   In the mid term, in a way to scale the assessement, inventory
+   [IVY-WG] requires to distinguish both legacy devices which include
+   eco-designed components and these eco-designed components inside
+   these devices.  This must not delay the initial deployment of eco-
+   designed components in legacy devices.
 
 5.  Complex Update
 
@@ -185,9 +185,11 @@ Table of Contents
    *  software component must be updated or added to operate these new
       capabilities
 
-   Legacy hardware component are designed for being rarely stop and re-
-   started.  The rythm of start/stop supported by the component must be
-   documented immediatly in the datasheet.
+   Legacy hardware components are designed for being rarely stopped and
+   re-started.  The rythm of start/stop supported by such components
+   must be documented to prevent wrong usage of their real capacity.
+   This must be present in the datasheet or exposed by the components
+   themselve.
 
 6.  Gain measurements
 
