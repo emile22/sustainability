@@ -121,7 +121,7 @@ The update of legacy networks and devices to support dynamic power management is
   * firmware component must expose the monitoring and the actionable functions to the software components
   * software component must be updated or added to operate these new capabilities
 
-Legacy hardware components are designed for being rarely stoped and re-started. The rythm of start/stop supported by such components must be documented to prevent wrong usage of their real capacity. This must be present in the datasheet and exposed by the components themselve. 
+Legacy hardware components are designed for being rarely stopped and re-started. The rythm of start/stop supported by such components must be documented to prevent wrong usage of their real capacity. This must be present in the datasheet and exposed by the components themselve. 
 
 # Gain measurements
 
