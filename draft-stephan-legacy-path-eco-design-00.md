@@ -71,7 +71,7 @@ informative:
 
 --- abstract
 
-This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability cost with regard to the power consumption.
+This draft discusses the usage of inventory  information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability cost with regard to the power consumption.
 
 --- middle
 
