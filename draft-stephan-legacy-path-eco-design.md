@@ -16,7 +16,7 @@ venue:
   mail: "green-bof@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/green-bof/"
   github: "emile22/sustainability"
-  latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design.html"
+  latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design-latest.html"
 
 v: 3
 
