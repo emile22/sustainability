@@ -81,7 +81,7 @@ Many companies in Europe have integrated sustainability improvements into their 
 
 Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing devices modularity to introduce eco-designed components in the networks while being able to assess the gains in sustainability.
 
-The rational  is the urgent need to start decreasing resource consumption by simply replacing devices components. It can be view as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
+The rational is the urgent need to start decreasing resource consumption by simply replacing devices components. It can be view as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
 
 # Conventions and Definitions
 
