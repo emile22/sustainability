@@ -114,9 +114,11 @@ In the mid term, in a way to scale the assessement, inventory {{IVY-WG}} require
 
 ## Simple Software Update
 
-Software modularity increases with the generalisation of continuous developpement and deployement approaches. Power consumption of current software components of network devices are rarely evaluated. They can be updated immediatly 'just' by replacing with another one which consumes significally less power by itself. 
+Software modularity increases with the generalisation of continuous developpement and deployement approaches. Power consumption of current software components of network devices are rarely evaluated. They can be updated immediatly 'just' by replacing with another one which consumes significally less power by itself.
 
-It might seem inappropriate to try to decrease the power consumption of a software component as intituively it is only doing what is expected, so this can't be reduced. In practice such methods exist for assessing power efficiency of Web application components with good results. As an example, GreenIT is available as a browser plugin https://github.com/cnumr/GreenIT-Analysis.
+It might seem inappropriate to try to decrease the power consumption of a software component as intituively it is only doing what is expected, so this can't be reduced.
+
+This exists for assessing power efficiency of Web application components with good results. As an example, GreenIT is available as a browser plugin https://github.com/cnumr/GreenIT-Analysis.
 
 # Complex Update
 
