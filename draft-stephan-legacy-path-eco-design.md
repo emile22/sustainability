@@ -32,8 +32,6 @@ author:
 
 normative:
 
-RFC2119:
-
 informative:
 
   IVY-WG:
