@@ -1,7 +1,7 @@
 ---
 title: "legacy modularity usage for eco-conception"
 abbrev: "legacy modularity and eco-design"
-docname: draft-stephan-legacy-path-eco-design
+docname: draft-stephan-legacy-path-eco-design-00
 
 category: info
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
@@ -16,7 +16,7 @@ venue:
   mail: "green-bof@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/green-bof/"
   github: "emile22/sustainability"
-  latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design-latest.html"
+  latest: "https://emile22.github.io/sustainability/draft-stephan-legacy-path-eco-design-00-latest.html"
 
 v: 3
 
