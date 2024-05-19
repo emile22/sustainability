@@ -128,7 +128,7 @@ Table of Contents
    Eco Design means that the products include environmental
    considerations throughout their entire lifecycle to reduce their
    environmental impact.  In France they are based on General Reference
-   Base for Eco-Design in digital services (“RGESN”) at
+   Base for Eco-Design in digital services ("RGESN") at
    https://ecoresponsable.numerique.gouv.fr/publications/referentiel-
    general-ecoconception/.
 
