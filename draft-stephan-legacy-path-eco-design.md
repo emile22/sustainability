@@ -137,7 +137,9 @@ Hackathon sessions can be used to compare assessment methods.
 
 # Security Considerations
 
-The tracking of LCM information may reveal information of the device usages.
+The tracking of LCM information may reveal device usage information.
+
+Device inventory can be used by attackers when assessing a system for vulnerable components.
 
 # IANA Considerations
 
