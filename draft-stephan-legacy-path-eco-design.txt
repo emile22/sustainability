@@ -4,8 +4,8 @@
 
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
-Intended status: Informational                               19 May 2024
-Expires: 20 November 2024
+Intended status: Informational                               20 May 2024
+Expires: 21 November 2024
 
 
                legacy modularity usage for eco-conception
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 November 2024.
+   This Internet-Draft will expire on 21 November 2024.
 
 Copyright Notice
 
