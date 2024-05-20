@@ -87,11 +87,11 @@ The rationale is the urgent need to start decreasing resource consumption by the
 
 # Network and devices modularity
 
-Networks and their devices are modular per design to cope with manufacturing and operational constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to be found between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUST-INS}}.
+Networks and their devices are modular by design to cope with manufacturing and operational constraints. Existing devices are going to be progressively replaced with more sustainable products. Both will co-exist in the networks as there is a balance to be found between the increased lifetime of existing devices and their replacement with eco-design devices {{SUST-INS}}.
 
 The same approach applies at the same time to individual devices: legacy devices will include progressively more and more eco-designed hardware components.
 
-Eco Design means that the products include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services ("RGESN") at https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
+Eco-design means that the products include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services ("RGESN") at https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
 
 Eco-design can be summarized as the concepts and current practices related to the integration of environmental aspects into every stage of a product lifecycle. This starts at product design and development [ISO/TR 14062:2002 ]
 
