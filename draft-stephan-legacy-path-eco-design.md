@@ -103,18 +103,17 @@ The upgrade of legacy devices with eco-designed cards can be separate in 2 categ
 
 # Simple Update
 
-Network operators update their devices components since decades. By consequence, update with eco-designed components can started immediately as there is no dependency on management solutions. The assessment of environmental and power gains can be done manually or with ad hoc scripts from the datasheets of the manufacturer or using an ad hoc process.
+Network operators have been updating their devices' components for decades. Consequently, replacement with eco-designed components can be begun immediately as there is no dependency on management solutions. The assessment of environmental and power gains can be done manually or with ad hoc scripts from the datasheets of the manufacturer or using an ad hoc process.
 
-It is clear that information for doing static assessment is spread over many media or OPS interfaces (datasheet, Web URL, CLI , YANG, MIB, IPFIX ...). A proposal consists in documenting how to do static assessment for a set of devices and components based on volunteering {{GREEN-BOF}}.
+It is clear that information for doing static assessment is spread over many mediums or OPS interfaces (datasheet, Web URL, CLI , YANG, MIB, IPFIX ...). A proposal consists in documenting how to do static assessment for a set of devices and components based on volunteering {{GREEN-BOF}}.
 
-In the mid term, in a way to scale the assessment, inventory {{IVY-WG}} requires to distinguish legacy devices which include eco-designed components and eco-designed components inside legacy devices. This must not delay the initial deployment of eco-designed components in legacy devices described above.
-
+In the mid-term, in a way to scale the assessment, inventory {{IVY-WG}} requires distinguishing legacy devices which include eco-designed components and eco-designed components inside legacy devices. This must not delay the initial deployment of eco-designed components in legacy devices described above.
 
 ## Simple Software Update
 
 Software modularity increases with the generalisation of continuous development and deployment approaches. Power consumption of current software components of network devices is rarely evaluated. They can be updated immediately 'just' by replacing with another one which consumes significantly less power by itself.
 
-It might seem inappropriate to try to decrease the power consumption of a software component as intuitively it is only doing what is expected, so this can't be reduced.
+It might seem inappropriate to try to decrease the power consumption of a software component as intuitively it is only doing what is expected, so this can't be reduced. However, software does not always use resources optimally and software updates can significantly improve or degrade performance and resource consumption.
 
 This exists for assessing power efficiency of Web application components with good results. As an example, GreenIT is available as a browser plugin https://github.com/cnumr/GreenIT-Analysis.
 
@@ -132,7 +131,7 @@ Legacy hardware components are designed for being rarely stopped and re-started.
 
 # Gain measurements
 
-On the short term, as promoted by the GREEN-BoF, the assessment at the device level requires firstly datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates and then metrics to measure the power consumption {{POWEFF}}.
+In the short-term, as promoted by the GREEN-BoF, the assessment at the device level requires firstly datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates and then metrics to measure the power consumption {{POWEFF}}.
 
 There is room for hackathon sessions to compare assessment methods.
 
