@@ -121,13 +121,13 @@ This exists for assessing power efficiency of Web application components with go
 
 Currently network devices are mostly always-on. The design of their software components do not include dynamic power management.
 
-The update of legacy networks and devices to support dynamic power management is something complex because it impacts the different type of components:
+The update of legacy networks and devices to support dynamic power management is a complex topic because it impacts the different type of components:
 
-  * hardware component must support variation of power, of bit rate or only being shutdown and restarted
-  * firmware component must expose the monitoring and the actionable functions to the software components
-  * software component must be updated or added to operate these new capabilities
+  * hardware components must support variation of power, of bit rate or only being shutdown and restarted
+  * firmware components must expose monitoring and actionable functions to software components
+  * software components must be updated or added to operate these new capabilities
 
-Legacy hardware components are designed for being rarely stopped and re-started. The rhythm of start/stop supported by such components must be documented to prevent wrong usage of their real capacity. This must be present in the datasheet or exposed by the components themselves.
+Legacy hardware components are rarely designed to be stopped and restarted. The rhythm of start/stop supported by such components must be documented to prevent wrong usage of their real capacity. This must be present in the datasheet or exposed by the components themselves.
 
 # Gain measurements
 
