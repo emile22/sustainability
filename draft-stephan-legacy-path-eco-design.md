@@ -81,10 +81,6 @@ Sustainability impacts numerous aspects of the life cycle management (LCM) of de
 
 The rational is the urgent need to start decreasing resource consumption by simply replacing devices components. It can be view as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
 
-# Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
-
 # Network and devices modularity
 
 Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUST-INS}}.
