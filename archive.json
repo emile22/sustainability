@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-05-19T01:04:17.485384+00:00",
+  "timestamp": "2024-05-21T01:00:01.680263+00:00",
   "repo": "emile22/sustainability",
   "labels": [
     {
@@ -69,5 +69,32 @@
       "comments": []
     }
   ],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 2,
+      "id": "PR_kwDOL2qM4M5v_1VU",
+      "title": "Fix typos, some grammar and sentence clarifications, minor additions",
+      "url": "https://github.com/emile22/sustainability/pull/2",
+      "state": "OPEN",
+      "author": "tlwr",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Thank you for writing this draft, I have made some suggestions\r\n\r\n_Changes are annotated commit by commit_\r\n\r\nThe bulk of the changes in this PR are grammar and spelling. There are rewording of some sentences for emphasis or clarity (see individual commits)\r\n\r\nAdditionally, add a note about device inventory security implications (perhaps unnecessarily obvious but included for completeness)",
+      "createdAt": "2024-05-20T20:04:26Z",
+      "updatedAt": "2024-05-20T20:04:26Z",
+      "baseRepository": "emile22/sustainability",
+      "baseRefName": "main",
+      "baseRefOid": "834a3f0e8aeee257da73dde21e0796c0679ba90e",
+      "headRepository": "tlwr/green-bof-sustainability",
+      "headRefName": "main",
+      "headRefOid": "86b4465d01ceb71bddbe7479b862f47bda608066",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
