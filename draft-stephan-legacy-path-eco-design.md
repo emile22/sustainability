@@ -44,29 +44,6 @@ informative:
     date: 2024-05-10
     target: "https://github.com/marisolpalmero/GREEN-bof"
 
-  SUST-INS:
-    title: "Sustainability Insights"
-    date: 2023-10-20
-    target: "https://datatracker.ietf.org/doc/draft-almprs-sustainability-insights/"
-    author:
-			- ins: Per Andersson
-			- ins: Jan Lindblad
-			- ins: Snezana Mitrovic
-			- ins: Marisol Palmero
-			- ins: Esther Roure
-			- ins: Gonzalo Salgueiro
-			- ins: Stephan Emile
-
-  POWEFF:
-    title: "Power and Energy Efficiency"
-    date: 2024-05-07
-    target: "https://datatracker.ietf.org/doc/html/draft-opsawg-poweff"
-    author:
-			- ins: Jan Lindblad
-			- ins: Snezana Mitrovic
-			- ins: Marisol Palmero
-			- ins: Gonzalo Salgueiro
-
 --- abstract
 
 This draft discusses the usage of inventory information for assessing the adaptation of existing devices to eco-design. It is driven by the weight of the manufacturing in the sustainability cost with regard to the power consumption.
@@ -87,7 +64,7 @@ The rational is the urgent need to start decreasing resource consumption by simp
 
 # Network and devices modularity
 
-Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUST-INS}}.
+Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{?SUST-INS=I-D.almprs-sustainability-insights}}.
 
 The same approach applies at the same time to individual devices: legacy devices will include progressively more and more eco-designed hardware components.
 
@@ -132,7 +109,7 @@ Legacy hardware components are designed for being rarely stopped and re-started.
 
 # Gain measurements
 
-On the short term, as promoted by the GREEN-BoF, the assessement at the device level requires firstly datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates and then metrics to measure the power consumption {{POWEFF}}.
+On the short term, as promoted by the GREEN-BoF, the assessement at the device level requires firstly datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates and then metrics to measure the power consumption {{?POWEFF=I-D.opsawg-poweff}}.
 
 There is room for hackathon sessions to compare asessment methods.
 
