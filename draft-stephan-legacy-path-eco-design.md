@@ -85,9 +85,9 @@ The rational is the urgent need to start decreasing resource consumption by simp
 
 {::boilerplate bcp14-tagged}
 
-# Network and devices modularity
+# Network and Devices Modularity
 
-Networks and theirs devices are modular per design to cope with manufacturing and operationnal obvious constraints. Existing devices are going to be progressively replaced with eco-design products. Both will co-exist in the networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUST-INS}}.
+Many Networks and networking devices (e.g., routers, switches, or Network Functions (NFs)) are designed with some modularity to cope with manufacturing and operational constraints. However, the modularity level is a still implementation and deployment specific. It is expected that legacy devices will be progressively replaced with eco-design products. Both will co-exist in networks as there is a balance to find between the increase of the live duration of existing devices and their replacement with eco-design devices {{SUST-INS}}.
 
 The same approach applies at the same time to individual devices: legacy devices will include progressively more and more eco-designed hardware components.
 
