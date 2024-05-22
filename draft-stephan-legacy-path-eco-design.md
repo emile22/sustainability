@@ -75,15 +75,11 @@ This draft discusses the usage of inventory information for assessing the adapta
 
 # Introduction
 
-Many companies in Europe have integrated sustainability improvements into their core business strategies. This integration is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
+Many companies have integrated sustainability improvements into their core business strategies. Such trend is driven by the growing awareness of environmental matters and regulatory requirements like Corporate Sustainability Reporting Directive (CSRD), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
 
-Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing devices' modularity to introduce eco-designed components in the networks while being able to measure the gains in sustainability.
+Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. This document discusses the benefits of leveraging existing devices modularity to introduce eco-designed components in the networks while being able to assess the gains in sustainability.
 
-The rationale is the urgent need to start decreasing resource consumption by the in-place replacement of devices' hardware and software. It can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
-
-# Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
+The motivation of this approach is the urgent need to start decreasing resource consumption by simply replacing devices components. This  approach can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
 
 # Network and devices modularity
 
