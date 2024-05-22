@@ -8,15 +8,15 @@ Intended status: Informational                               22 May 2024
 Expires: 23 November 2024
 
 
-               legacy modularity usage for eco-conception
+               legacy Modularity Usage for Eco-conception
                   draft-stephan-legacy-path-eco-design
 
 Abstract
 
-   This draft discusses the usage of inventory information for assessing
-   the adaptation of existing devices to eco-design.  It is driven by
-   the weight of the manufacturing in the sustainability cost with
-   regard to the power consumption.
+   This document discusses the usage of inventory-maintained information
+   for assessing the adaptation of existing devices to eco-design.  This
+   assessment is driven by the weight of the manufacturing in the
+   sustainability cost with regard to the power consumption.
 
 About This Document
 
