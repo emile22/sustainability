@@ -75,15 +75,11 @@ This draft discusses the usage of inventory information for assessing the adapta
 
 # Introduction
 
-Many companies in Europe have integrated sustainability improvements into their core business strategies. It is driven by a growing awareness of environmental issues and regulatory requirements like CSRD (Corporate Sustainability Reporting Directive), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
+Many companies have integrated sustainability improvements into their core business strategies. Such trend is driven by the growing awareness of environmental matters and regulatory requirements like Corporate Sustainability Reporting Directive (CSRD), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
 
-Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing devices modularity to introduce eco-designed components in the networks while being able to assess the gains in sustainability.
+Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. This document discusses the benefits of leveraging existing devices modularity to introduce eco-designed components in the networks while being able to assess the gains in sustainability.
 
-The rational is the urgent need to start decreasing resource consumption by simply replacing devices components. It can be view as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
-
-# Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
+The motivation of this approach is the urgent need to start decreasing resource consumption by simply replacing devices components. This  approach can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
 
 # Network and Devices Modularity
 
@@ -91,30 +87,29 @@ Many Networks and networking devices (e.g., routers, switches, or Network Functi
 
 The same approach applies at the same time to individual devices: legacy devices will include progressively more and more eco-designed hardware components.
 
-Eco Design means that the products include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services ("RGESN") at https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
+Eco-design means that the products include environmental considerations throughout their entire lifecycle to reduce their environmental impact. In France they are based on General Reference Base for Eco-Design in digital services ("RGESN") at https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/.
 
 Eco-design can be summarized as the concepts and current practices related to the integration of environmental aspects into every stage of a product lifecycle. This starts at product design and development [ISO/TR 14062:2002 ]
 
 The upgrade of legacy devices with eco-designed cards can be separate in 2 categories:
 
- * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consumes significally less power by itself when running and which required less ressources during its manufacturing and its deployment.
+ * "Simple" update : The adaptation is simple, a card is 'just' replaced with another one which consumes significantly less power by itself when running and which required fewer resources during its manufacturing and its deployment.
 
  * "Complex" update: The replacement of the card requires the adding or the update of software components to enable dynamic power consumption.
 
 # Simple Update
 
-Network operators update their devices components since decades. By consequence, update with eco-designed components can started immediatly as there is no dependency on management solutions. The assessement of environmental and power gains can be done manually or with adhoc scripts from the datasheets of the manufacturer or using an adhoc processing.
+Network operators have been updating their devices' components for decades. Consequently, replacement with eco-designed components can be begun immediately as there is no dependency on management solutions. The assessment of environmental and power gains can be done manually or with ad hoc scripts from the datasheets of the manufacturer or using an ad hoc process.
 
-It is clear that information for doing static assessement is spread over many media or OPS interfaces (datasheet, Web URL, CLI , YANG, MIB, IPFIX ...). A proposal consists in documenting how to do static assessement for a set of devices and components based on volontaring {{GREEN-BOF}}.
+It is clear that information for doing static assessment is spread over many mediums or OPS interfaces (datasheet, Web URL, CLI , YANG, MIB, IPFIX ...). A proposal consists in documenting how to do static assessment for a set of devices and components based on volunteering {{GREEN-BOF}}.
 
-In the mid term, in a way to scale the assessement, inventory {{IVY-WG}} requires to distinguish legacy devices which include eco-designed components and eco-designed components inside legacy devices. This must not delay the initial deployment of eco-designed components in legacy devices described above.
-
+In the mid-term, in a way to scale the assessment, inventory {{IVY-WG}} requires distinguishing legacy devices which include eco-designed components and eco-designed components inside legacy devices. This must not delay the initial deployment of eco-designed components in legacy devices described above.
 
 ## Simple Software Update
 
-Software modularity increases with the generalisation of continuous developpement and deployement approaches. Power consumption of current software components of network devices are rarely evaluated. They can be updated immediatly 'just' by replacing with another one which consumes significally less power by itself.
+Software modularity increases with the generalisation of continuous development and deployment approaches. Power consumption of current software components of network devices is rarely evaluated. They can be updated immediately 'just' by replacing with another one which consumes significantly less power by itself.
 
-It might seem inappropriate to try to decrease the power consumption of a software component as intituively it is only doing what is expected, so this can't be reduced.
+It might seem inappropriate to try to decrease the power consumption of a software component as intuitively it is only doing what is expected, so this can't be reduced. However, software does not always use resources optimally and software updates can significantly improve or degrade performance and resource consumption.
 
 This exists for assessing power efficiency of Web application components with good results. As an example, GreenIT is available as a browser plugin https://github.com/cnumr/GreenIT-Analysis.
 
@@ -122,23 +117,25 @@ This exists for assessing power efficiency of Web application components with go
 
 Currently network devices are mostly always-on. The design of their software components do not include dynamic power management.
 
-The update of legacy networks and devices to support dynamic power management is something complex because it impacts the different type of components:
+The update of legacy networks and devices to support dynamic power management is a complex topic because it impacts the different type of components:
 
-  * hardware component must support variation of power, of bit rate or only being shutdown and restarted
-  * firmware component must expose the monitoring and the actionable functions to the software components
-  * software component must be updated or added to operate these new capabilities
+  * hardware components must support variation of power, of bit rate or only being shutdown and restarted
+  * firmware components must expose monitoring and actionable functions to software components
+  * software components must be updated or added to operate these new capabilities
 
-Legacy hardware components are designed for being rarely stopped and re-started. The rythm of start/stop supported by such components must be documented to prevent wrong usage of their real capacity. This must be present in the datasheet or exposed by the components themselve.
+Legacy hardware components are rarely designed to be stopped and restarted. The rhythm of start/stop supported by such components must be documented to prevent wrong usage of their real capacity. This must be present in the datasheet or exposed by the components themselves.
 
-# Gain measurements
+# Improve measurement methods
 
-On the short term, as promoted by the GREEN-BoF, the assessement at the device level requires firstly datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates and then metrics to measure the power consumption {{POWEFF}}.
+In the short-term, as promoted by the GREEN-BoF, the device level assessment requires datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates first, and metrics to measure the power consumption {{POWEFF}} second.
 
-There is room for hackathon sessions to compare asessment methods.
+Hackathon sessions can be used to compare assessment methods.
 
 # Security Considerations
 
-The tracking of LCM information may reveal information of the device usages.
+The tracking of LCM information may reveal device usage information.
+
+Device inventory can be used by attackers when assessing a system for vulnerable components.
 
 # IANA Considerations
 
