@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-05-21T01:00:01.680263+00:00",
+  "timestamp": "2024-05-23T00:59:58.654452+00:00",
   "repo": "emile22/sustainability",
   "labels": [
     {
@@ -47,6 +47,16 @@
       "name": "wontfix",
       "description": "This will not be worked on",
       "color": "ffffff"
+    },
+    {
+      "name": "Template",
+      "description": "related to the ietf draft struc",
+      "color": "F0C286"
+    },
+    {
+      "name": "wording",
+      "description": "",
+      "color": "93961F"
     }
   ],
   "issues": [
@@ -67,6 +77,82 @@
       "updatedAt": "2024-05-03T21:57:27Z",
       "closedAt": "2024-05-03T21:57:27Z",
       "comments": []
+    },
+    {
+      "number": 4,
+      "id": "I_kwDOL2qM4M6Jk-02",
+      "title": "Legacy",
+      "url": "https://github.com/emile22/sustainability/issues/4",
+      "state": "CLOSED",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "wording"
+      ],
+      "body": "https://github.com/emile22/sustainability/blob/834a3f0e8aeee257da73dde21e0796c0679ba90e/draft-stephan-legacy-path-eco-design.md?plain=1#L2\r\n\r\nI'm afraid the title is not easy to parse. ",
+      "createdAt": "2024-05-21T12:20:43Z",
+      "updatedAt": "2024-05-22T14:00:12Z",
+      "closedAt": "2024-05-22T13:59:43Z",
+      "comments": [
+        {
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "body": "right, this will be updated later using the long ans short title",
+          "createdAt": "2024-05-22T13:59:43Z",
+          "updatedAt": "2024-05-22T13:59:43Z"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOL2qM4M6JlCXs",
+      "title": "modularity",
+      "url": "https://github.com/emile22/sustainability/issues/7",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "https://github.com/emile22/sustainability/blob/834a3f0e8aeee257da73dde21e0796c0679ba90e/draft-stephan-legacy-path-eco-design.md?plain=1#L80\r\n\r\nThe device modularity may not always be supported",
+      "createdAt": "2024-05-21T12:28:02Z",
+      "updatedAt": "2024-05-21T12:28:02Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 10,
+      "id": "I_kwDOL2qM4M6JlHRe",
+      "title": "individual devices",
+      "url": "https://github.com/emile22/sustainability/issues/10",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "https://github.com/emile22/sustainability/blob/834a3f0e8aeee257da73dde21e0796c0679ba90e/draft-stephan-legacy-path-eco-design.md?plain=1#L92\r\n\r\nPlease clarify what is meant here",
+      "createdAt": "2024-05-21T12:38:02Z",
+      "updatedAt": "2024-05-21T12:38:02Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 11,
+      "id": "I_kwDOL2qM4M6JlKLC",
+      "title": "IVY inventory does not support this (yet)...generalize the requirement",
+      "url": "https://github.com/emile22/sustainability/issues/11",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "invalid"
+      ],
+      "body": "https://github.com/emile22/sustainability/blob/834a3f0e8aeee257da73dde21e0796c0679ba90e/draft-stephan-legacy-path-eco-design.md?plain=1#L110\r\n\r\nI would delete the IVY mention but generalize to argue that it is helpful to have that information recorded as part of an inventory. Whether that is specified by IVY or elsewhere does not matter much at this stage",
+      "createdAt": "2024-05-21T12:43:11Z",
+      "updatedAt": "2024-05-22T13:53:57Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -75,26 +161,350 @@
       "id": "PR_kwDOL2qM4M5v_1VU",
       "title": "Fix typos, some grammar and sentence clarifications, minor additions",
       "url": "https://github.com/emile22/sustainability/pull/2",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "tlwr",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "wording"
+      ],
       "body": "Thank you for writing this draft, I have made some suggestions\r\n\r\n_Changes are annotated commit by commit_\r\n\r\nThe bulk of the changes in this PR are grammar and spelling. There are rewording of some sentences for emphasis or clarity (see individual commits)\r\n\r\nAdditionally, add a note about device inventory security implications (perhaps unnecessarily obvious but included for completeness)",
       "createdAt": "2024-05-20T20:04:26Z",
-      "updatedAt": "2024-05-20T20:04:26Z",
+      "updatedAt": "2024-05-22T13:32:20Z",
+      "baseRepository": "emile22/sustainability",
+      "baseRefName": "main",
+      "baseRefOid": "6ccfebe9c02b4a9256399a1ba698e851a9114b4a",
+      "headRepository": "tlwr/green-bof-sustainability",
+      "headRefName": "main",
+      "headRefOid": "8233f77c87fdd5b665d088954e92ac984740b3e3",
+      "closedAt": "2024-05-22T13:27:21Z",
+      "mergedAt": "2024-05-22T13:27:21Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "a3db77071b9f6e68eba51c02ea69caefcb57d3d4"
+      },
+      "comments": [
+        {
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "body": "thanks for the improvements",
+          "createdAt": "2024-05-22T13:28:07Z",
+          "updatedAt": "2024-05-22T13:28:07Z"
+        },
+        {
+          "author": "tlwr",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Thank you for the quick review and for the draft \ud83d\ude4f ",
+          "createdAt": "2024-05-22T13:32:19Z",
+          "updatedAt": "2024-05-22T13:32:19Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOL2qM4M57TQlo",
+          "commit": {
+            "abbreviatedOid": "86b4465"
+          },
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-05-21T13:26:13Z",
+          "updatedAt": "2024-05-22T13:20:43Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "ok",
+              "createdAt": "2024-05-21T13:26:13Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 8,
+              "body": "```suggestion\r\nSustainability impacts numerous aspects of the life cycle management (LCM) of devices. In this draft we discuss the advantages of leveraging existing devices' modularity to introduce eco-designed components in the networks while being able to assess the gains in sustainability without dynamic measurements.\r\n```",
+              "createdAt": "2024-05-21T14:13:38Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 11,
+              "body": "```suggestion\r\nThe rationale is the urgent need to start decreasing resource consumption by the in-place replacement of devices' hardware or software components . It can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.\r\n```",
+              "createdAt": "2024-05-21T14:15:38Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 25,
+              "body": "ok",
+              "createdAt": "2024-05-21T16:38:25Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 34,
+              "body": "```suggestion\r\nNetwork operators have been updating their devices' components for decades. Consequently, replacement with eco-designed components can start immediately as there is no dependency on management solutions. The assessment of environmental and power gains can be done manually or with ad hoc scripts from the datasheets of the manufacturer or using an ad hoc process.\r\n```",
+              "createdAt": "2024-05-21T16:49:40Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 48,
+              "body": "ok",
+              "createdAt": "2024-05-21T16:51:31Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 57,
+              "body": "ok",
+              "createdAt": "2024-05-21T16:52:02Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 62,
+              "body": "ok",
+              "createdAt": "2024-05-21T16:52:17Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 67,
+              "body": "ok",
+              "createdAt": "2024-05-21T16:52:52Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 73,
+              "body": "ok",
+              "createdAt": "2024-05-21T16:55:09Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 76,
+              "body": "ok",
+              "createdAt": "2024-05-21T16:55:24Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 81,
+              "body": "ok",
+              "createdAt": "2024-05-21T16:55:50Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 83,
+              "body": "ok",
+              "createdAt": "2024-05-21T16:55:59Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            },
+            {
+              "originalPosition": 20,
+              "body": "ok",
+              "createdAt": "2024-05-22T13:20:33Z",
+              "updatedAt": "2024-05-22T13:20:43Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOL2qM4M5wE6aA",
+      "title": "Update the abstract to better reflect the scope",
+      "url": "https://github.com/emile22/sustainability/pull/3",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-05-21T12:19:45Z",
+      "updatedAt": "2024-05-22T20:42:02Z",
       "baseRepository": "emile22/sustainability",
       "baseRefName": "main",
       "baseRefOid": "834a3f0e8aeee257da73dde21e0796c0679ba90e",
-      "headRepository": "tlwr/green-bof-sustainability",
-      "headRefName": "main",
-      "headRefOid": "86b4465d01ceb71bddbe7479b862f47bda608066",
+      "headRepository": "boucadair/sustainability",
+      "headRefName": "patch-1",
+      "headRefOid": "d7e28a4624e84268f7a31cc672c8b558e7a3afa2",
+      "closedAt": "2024-05-22T20:42:02Z",
+      "mergedAt": "2024-05-22T20:42:02Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "19b1501d1ee77ebf6047cb345d8b54f6142635f6"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOL2qM4M57hSRa",
+          "commit": {
+            "abbreviatedOid": "d7e28a4"
+          },
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-05-22T20:41:04Z",
+          "updatedAt": "2024-05-22T20:41:04Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOL2qM4M5wE9Wd",
+      "title": "some edits to the intro",
+      "url": "https://github.com/emile22/sustainability/pull/5",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "wording"
+      ],
+      "body": "",
+      "createdAt": "2024-05-21T12:26:33Z",
+      "updatedAt": "2024-05-22T08:28:50Z",
+      "baseRepository": "emile22/sustainability",
+      "baseRefName": "main",
+      "baseRefOid": "834a3f0e8aeee257da73dde21e0796c0679ba90e",
+      "headRepository": "boucadair/sustainability",
+      "headRefName": "patch-2",
+      "headRefOid": "5b9b6d7573bb7f109e0cbf442736d7f1b513f242",
+      "closedAt": "2024-05-22T08:15:17Z",
+      "mergedAt": "2024-05-22T08:15:17Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "351b79805a2e14f0c8da0225f8da80e7f23b03bc"
+      },
+      "comments": [
+        {
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "body": "thanks",
+          "createdAt": "2024-05-22T08:15:07Z",
+          "updatedAt": "2024-05-22T08:15:07Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOL2qM4M57aKwT",
+          "commit": {
+            "abbreviatedOid": "5b9b6d7"
+          },
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-05-22T08:13:05Z",
+          "updatedAt": "2024-05-22T08:13:05Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOL2qM4M5wE9tg",
+      "title": "no need for the boilerplate",
+      "url": "https://github.com/emile22/sustainability/pull/6",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [
+        "Template"
+      ],
+      "body": "",
+      "createdAt": "2024-05-21T12:27:21Z",
+      "updatedAt": "2024-05-22T08:25:41Z",
+      "baseRepository": "emile22/sustainability",
+      "baseRefName": "main",
+      "baseRefOid": "834a3f0e8aeee257da73dde21e0796c0679ba90e",
+      "headRepository": "boucadair/sustainability",
+      "headRefName": "patch-3",
+      "headRefOid": "8a64e42669b8f908f4fd4c37b5e517ad2335c74f",
+      "closedAt": "2024-05-22T08:22:58Z",
+      "mergedAt": "2024-05-22T08:22:58Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "6ccfebe9c02b4a9256399a1ba698e851a9114b4a"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOL2qM4M57aS76",
+          "commit": {
+            "abbreviatedOid": "8a64e42"
+          },
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "ok",
+          "createdAt": "2024-05-22T08:21:17Z",
+          "updatedAt": "2024-05-22T08:21:17Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOL2qM4M5wE_eQ",
+      "title": "Simplify how refs are called out in the text",
+      "url": "https://github.com/emile22/sustainability/pull/8",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-05-21T12:31:25Z",
+      "updatedAt": "2024-05-21T12:31:26Z",
+      "baseRepository": "emile22/sustainability",
+      "baseRefName": "main",
+      "baseRefOid": "834a3f0e8aeee257da73dde21e0796c0679ba90e",
+      "headRepository": "boucadair/sustainability",
+      "headRefName": "patch-4",
+      "headRefOid": "8a54bb7fc4264f369eb73c82f367fa6b420b95ed",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOL2qM4M5wFCAK",
+      "title": "Soften the claim about modular networks/devices",
+      "url": "https://github.com/emile22/sustainability/pull/9",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-05-21T12:37:12Z",
+      "updatedAt": "2024-05-22T13:48:31Z",
+      "baseRepository": "emile22/sustainability",
+      "baseRefName": "main",
+      "baseRefOid": "a3db77071b9f6e68eba51c02ea69caefcb57d3d4",
+      "headRepository": "boucadair/sustainability",
+      "headRefName": "patch-5",
+      "headRefOid": "e215a759f4c480d4040a297fe285507912dec0ed",
+      "closedAt": "2024-05-22T13:48:31Z",
+      "mergedAt": "2024-05-22T13:48:31Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "803845518d1a45c25ddfedfd572ec11f70e7ce66"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOL2qM4M57dPL4",
+          "commit": {
+            "abbreviatedOid": "e797e64"
+          },
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "great",
+          "createdAt": "2024-05-22T13:43:30Z",
+          "updatedAt": "2024-05-22T13:43:30Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
