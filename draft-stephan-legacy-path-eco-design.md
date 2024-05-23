@@ -127,7 +127,7 @@ Legacy hardware components are rarely designed to be stopped and restarted. The 
 
 # Improve measurement methods
 
-In the short-term, as promoted by the GREEN-BoF, the device level assessment requires datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates first, and metrics to measure the power consumption {{POWEFF}} second.
+In the short-term, as promoted by several discussions in the GREEN-BoF mailing list, the device level assessment requires datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates first, and metrics to measure the power consumption {{POWEFF}} second.
 
 Hackathon sessions can be used to compare assessment methods.
 
