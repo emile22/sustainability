@@ -131,15 +131,9 @@ In the short-term, as promoted by several discussions in the GREEN-BoF mailing l
 
 Hackathon sessions can be used to compare assessment methods.
 
-# Security Considerations
-
-The tracking of LCM information may reveal device usage information.
-
-Device inventory can be used by attackers when assessing a system for vulnerable components.
-
 # Use Cases
 
-## Device replacement
+## Device replacement in a DC
 
 Legacy hardware had to be replaced after reaching end-of-life (6+ years of constant use), replacement components for older hardware became scarcer.
 
@@ -155,6 +149,12 @@ During and after the project, active power consumption could only be measured fr
 One goal of the project could not be achieved: measure impact of increased density of devices (i.e., fan size impact moving from 1U to 2U devices which can be attributed to cooling).
 
 Standardization of power consumption metrics (e.g. idle/max) for inventory would improve measurement for legacy hardware replacement projects. Improved power delivery designs inside racks already improves ability to measure real-time device power consumption, this allows device replacement projects to accurately measure impact. Devices reporting granular per-component power consumption metrics would allow component replacement projects to accurately measure reduction.
+
+# Security Considerations
+
+The tracking of LCM information may reveal device usage information.
+
+Device inventory can be used by attackers when assessing a system for vulnerable components.
 
 # IANA Considerations
 
