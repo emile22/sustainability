@@ -21,7 +21,7 @@ venue:
 v: 3
 
 author:
-
+ -
    name: Emile Stephan
    organization: Orange
    street: 2, avenue Pierre Marzin
