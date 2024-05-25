@@ -4,8 +4,8 @@
 
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
-Intended status: Informational                               25 May 2024
-Expires: 26 November 2024
+Intended status: Informational                                  T. Lorne
+Expires: 26 November 2024                                    25 May 2024
 
 
                legacy Modularity Usage for Eco-conception
@@ -81,7 +81,7 @@ Table of Contents
    8.  IANA Considerations
    9.  Informative References
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -289,7 +289,7 @@ Acknowledgments
 
    TODO acknowledge.
 
-Author's Address
+Authors' Addresses
 
    Emile Stephan
    Orange
@@ -297,3 +297,7 @@ Author's Address
    22300 Lannion
    France
    Email: emile.stephan@gmail.com
+
+
+   Toby Lorne
+   Email: toby@toby.codes
