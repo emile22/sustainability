@@ -30,11 +30,6 @@ author:
    country: France
    email: emile.stephan@gmail.com
 
-author:
-
-   name: Toby Lorne
-   email: toby@toby.codes
-
 normative:
 
 informative:
