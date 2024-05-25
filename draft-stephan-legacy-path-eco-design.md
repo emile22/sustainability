@@ -137,6 +137,25 @@ The tracking of LCM information may reveal device usage information.
 
 Device inventory can be used by attackers when assessing a system for vulnerable components.
 
+# Use Cases
+
+## Device replacement
+
+Legacy hardware had to be replaced after reaching end-of-life (6+ years of constant use), replacement components for older hardware became scarcer.
+
+Two objectives of the replacement:
+
+1. reduce power consumption using newer hardware
+2. reduce footprint in datacenter using denser devices (i.e., ~120 devices replaced by 30)
+
+Before the project started it was difficult to estimate the power consumption reduction of the project. Only some components had idle consumption and max consumption power metrics, which would be used to compare inventory before and after.
+
+During and after the project, active power consumption could only be measured from some components (e.g., cpu power consumption estimated via current and voltage sensors), and from the power distribution at each rack (where only a subset of devices were replaced).
+
+One goal of the project could not be achieved: measure impact of increased density of devices (i.e., fan size impact moving from 1U to 2U devices which can be attributed to cooling).
+
+Standardization of power consumption metrics (e.g. idle/max) for inventory would improve measurement for legacy hardware replacement projects. Improved power delivery designs inside racks already improves ability to measure real-time device power consumption, this allows device replacement projects to accurately measure impact. Devices reporting granular per-component power consumption metrics would allow component replacement projects to accurately measure reduction.
+
 # IANA Considerations
 
 At this step this document has no IANA actions.
