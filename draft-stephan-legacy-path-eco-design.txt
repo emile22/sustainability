@@ -75,9 +75,9 @@ Table of Contents
      3.1.  Simple Software Update
    4.  Complex Update
    5.  Improve measurement methods
-   6.  Security Considerations
-   7.  Use Cases
-     7.1.  Device replacement
+   6.  Use Cases
+     6.1.  Device replacement in a DC
+   7.  Security Considerations
    8.  IANA Considerations
    9.  Informative References
    Acknowledgments
@@ -216,16 +216,9 @@ Table of Contents
 
    Hackathon sessions can be used to compare assessment methods.
 
-6.  Security Considerations
+6.  Use Cases
 
-   The tracking of LCM information may reveal device usage information.
-
-   Device inventory can be used by attackers when assessing a system for
-   vulnerable components.
-
-7.  Use Cases
-
-7.1.  Device replacement
+6.1.  Device replacement in a DC
 
    Legacy hardware had to be replaced after reaching end-of-life (6+
    years of constant use), replacement components for older hardware
@@ -260,6 +253,13 @@ Table of Contents
    Devices reporting granular per-component power consumption metrics
    would allow component replacement projects to accurately measure
    reduction.
+
+7.  Security Considerations
+
+   The tracking of LCM information may reveal device usage information.
+
+   Device inventory can be used by attackers when assessing a system for
+   vulnerable components.
 
 8.  IANA Considerations
 
