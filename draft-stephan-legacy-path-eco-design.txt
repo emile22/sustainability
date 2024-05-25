@@ -4,8 +4,8 @@
 
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
-Intended status: Informational                               23 May 2024
-Expires: 24 November 2024
+Intended status: Informational                               25 May 2024
+Expires: 26 November 2024
 
 
                legacy Modularity Usage for Eco-conception
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 November 2024.
+   This Internet-Draft will expire on 26 November 2024.
 
 Copyright Notice
 
@@ -76,8 +76,10 @@ Table of Contents
    4.  Complex Update
    5.  Improve measurement methods
    6.  Security Considerations
-   7.  IANA Considerations
-   8.  Informative References
+   7.  Use Cases
+     7.1.  Device replacement
+   8.  IANA Considerations
+   9.  Informative References
    Acknowledgments
    Author's Address
 
@@ -221,11 +223,49 @@ Table of Contents
    Device inventory can be used by attackers when assessing a system for
    vulnerable components.
 
-7.  IANA Considerations
+7.  Use Cases
+
+7.1.  Device replacement
+
+   Legacy hardware had to be replaced after reaching end-of-life (6+
+   years of constant use), replacement components for older hardware
+   became scarcer.
+
+   Two objectives of the replacement:
+
+   1.  reduce power consumption using newer hardware
+
+   2.  reduce footprint in datacenter using denser devices (i.e., ~120
+       devices replaced by 30)
+
+   Before the project started it was difficult to estimate the power
+   consumption reduction of the project.  Only some components had idle
+   consumption and max consumption power metrics, which would be used to
+   compare inventory before and after.
+
+   During and after the project, active power consumption could only be
+   measured from some components (e.g., cpu power consumption estimated
+   via current and voltage sensors), and from the power distribution at
+   each rack (where only a subset of devices were replaced).
+
+   One goal of the project could not be achieved: measure impact of
+   increased density of devices (i.e., fan size impact moving from 1U to
+   2U devices which can be attributed to cooling).
+
+   Standardization of power consumption metrics (e.g. idle/max) for
+   inventory would improve measurement for legacy hardware replacement
+   projects.  Improved power delivery designs inside racks already
+   improves ability to measure real-time device power consumption, this
+   allows device replacement projects to accurately measure impact.
+   Devices reporting granular per-component power consumption metrics
+   would allow component replacement projects to accurately measure
+   reduction.
+
+8.  IANA Considerations
 
    At this step this document has no IANA actions.
 
-8.  Informative References
+9.  Informative References
 
    [GREEN-BOF]
               "BOF proposal for GREEN WG Creation", 10 May 2024,
