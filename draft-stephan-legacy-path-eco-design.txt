@@ -2,9 +2,9 @@
 
 
 
-WG Working Group                                              E. Stephan
-Internet-Draft                                                    Orange
-Intended status: Informational                               25 May 2024
+WG Working Group                                                T. Lorne
+Internet-Draft                                               25 May 2024
+Intended status: Informational                                          
 Expires: 26 November 2024
 
 
@@ -291,9 +291,5 @@ Acknowledgments
 
 Author's Address
 
-   Emile Stephan
-   Orange
-   2, avenue Pierre Marzin
-   22300 Lannion
-   France
-   Email: emile.stephan@gmail.com
+   Toby Lorne
+   Email: toby@toby.codes
