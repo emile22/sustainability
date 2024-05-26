@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-05-23T00:59:58.654452+00:00",
+  "timestamp": "2024-05-26T01:05:09.009541+00:00",
   "repo": "emile22/sustainability",
   "labels": [
     {
@@ -57,6 +57,11 @@
       "name": "wording",
       "description": "",
       "color": "93961F"
+    },
+    {
+      "name": "clarify",
+      "description": "",
+      "color": "4A0B38"
     }
   ],
   "issues": [
@@ -70,11 +75,12 @@
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [
-        "documentation"
+        "documentation",
+        "wording"
       ],
       "body": "add the abstract",
       "createdAt": "2024-05-03T16:32:32Z",
-      "updatedAt": "2024-05-03T21:57:27Z",
+      "updatedAt": "2024-05-23T12:30:14Z",
       "closedAt": "2024-05-03T21:57:27Z",
       "comments": []
     },
@@ -88,11 +94,12 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [
-        "wording"
+        "wording",
+        "clarify"
       ],
       "body": "https://github.com/emile22/sustainability/blob/834a3f0e8aeee257da73dde21e0796c0679ba90e/draft-stephan-legacy-path-eco-design.md?plain=1#L2\r\n\r\nI'm afraid the title is not easy to parse. ",
       "createdAt": "2024-05-21T12:20:43Z",
-      "updatedAt": "2024-05-22T14:00:12Z",
+      "updatedAt": "2024-05-23T12:07:49Z",
       "closedAt": "2024-05-22T13:59:43Z",
       "comments": [
         {
@@ -109,50 +116,76 @@
       "id": "I_kwDOL2qM4M6JlCXs",
       "title": "modularity",
       "url": "https://github.com/emile22/sustainability/issues/7",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "boucadair",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "clarify"
+      ],
       "body": "https://github.com/emile22/sustainability/blob/834a3f0e8aeee257da73dde21e0796c0679ba90e/draft-stephan-legacy-path-eco-design.md?plain=1#L80\r\n\r\nThe device modularity may not always be supported",
       "createdAt": "2024-05-21T12:28:02Z",
-      "updatedAt": "2024-05-21T12:28:02Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2024-05-23T12:06:48Z",
+      "closedAt": "2024-05-23T12:03:24Z",
+      "comments": [
+        {
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "body": "can be at hw fw or sw if not at hw level. ",
+          "createdAt": "2024-05-23T12:03:24Z",
+          "updatedAt": "2024-05-23T12:03:24Z"
+        }
+      ]
     },
     {
       "number": 10,
       "id": "I_kwDOL2qM4M6JlHRe",
       "title": "individual devices",
       "url": "https://github.com/emile22/sustainability/issues/10",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "boucadair",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [],
+      "labels": [
+        "clarify"
+      ],
       "body": "https://github.com/emile22/sustainability/blob/834a3f0e8aeee257da73dde21e0796c0679ba90e/draft-stephan-legacy-path-eco-design.md?plain=1#L92\r\n\r\nPlease clarify what is meant here",
       "createdAt": "2024-05-21T12:38:02Z",
-      "updatedAt": "2024-05-21T12:38:02Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2024-05-23T12:29:05Z",
+      "closedAt": "2024-05-23T12:28:51Z",
+      "comments": [
+        {
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "body": "i will clarify",
+          "createdAt": "2024-05-23T12:28:52Z",
+          "updatedAt": "2024-05-23T12:28:52Z"
+        }
+      ]
     },
     {
       "number": 11,
       "id": "I_kwDOL2qM4M6JlKLC",
       "title": "IVY inventory does not support this (yet)...generalize the requirement",
       "url": "https://github.com/emile22/sustainability/issues/11",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "boucadair",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
-      "labels": [
-        "invalid"
-      ],
+      "labels": [],
       "body": "https://github.com/emile22/sustainability/blob/834a3f0e8aeee257da73dde21e0796c0679ba90e/draft-stephan-legacy-path-eco-design.md?plain=1#L110\r\n\r\nI would delete the IVY mention but generalize to argue that it is helpful to have that information recorded as part of an inventory. Whether that is specified by IVY or elsewhere does not matter much at this stage",
       "createdAt": "2024-05-21T12:43:11Z",
-      "updatedAt": "2024-05-22T13:53:57Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2024-05-23T12:12:23Z",
+      "closedAt": "2024-05-23T12:12:22Z",
+      "comments": [
+        {
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "body": "It does as the relation with IVY is a open discussion of the green BoF ",
+          "createdAt": "2024-05-23T12:12:22Z",
+          "updatedAt": "2024-05-23T12:12:22Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -443,25 +476,33 @@
       "id": "PR_kwDOL2qM4M5wE_eQ",
       "title": "Simplify how refs are called out in the text",
       "url": "https://github.com/emile22/sustainability/pull/8",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "boucadair",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2024-05-21T12:31:25Z",
-      "updatedAt": "2024-05-21T12:31:26Z",
+      "updatedAt": "2024-05-23T12:08:44Z",
       "baseRepository": "emile22/sustainability",
       "baseRefName": "main",
       "baseRefOid": "834a3f0e8aeee257da73dde21e0796c0679ba90e",
       "headRepository": "boucadair/sustainability",
       "headRefName": "patch-4",
       "headRefOid": "8a54bb7fc4264f369eb73c82f367fa6b420b95ed",
-      "closedAt": null,
+      "closedAt": "2024-05-23T12:08:44Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "body": "use mq template",
+          "createdAt": "2024-05-23T12:08:44Z",
+          "updatedAt": "2024-05-23T12:08:44Z"
+        }
+      ],
       "reviews": []
     },
     {
@@ -502,6 +543,76 @@
           "body": "great",
           "createdAt": "2024-05-22T13:43:30Z",
           "updatedAt": "2024-05-22T13:43:30Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "PR_kwDOL2qM4M5wi1kS",
+      "title": "Add device replacement use-case",
+      "url": "https://github.com/emile22/sustainability/pull/12",
+      "state": "MERGED",
+      "author": "tlwr",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "OP https://mailarchive.ietf.org/arch/msg/green-bof/YMn-D_lMms-0bCju6UHzZlgft1c/\r\n\r\nAs per email thread with Emile, adding into draft as use-case",
+      "createdAt": "2024-05-25T09:08:49Z",
+      "updatedAt": "2024-05-25T14:22:44Z",
+      "baseRepository": "emile22/sustainability",
+      "baseRefName": "main",
+      "baseRefOid": "31e663fe0442a205b794c79181802210f6b01a11",
+      "headRepository": "tlwr/green-bof-sustainability",
+      "headRefName": "main",
+      "headRefOid": "7e3f8f310d61e70f13185f251e67658c6a4d2796",
+      "closedAt": "2024-05-25T14:22:19Z",
+      "mergedAt": "2024-05-25T14:22:19Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "7963d8cf7b4ad9c4d6399e4002264477e8b2d3f3"
+      },
+      "comments": [
+        {
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "body": "great!",
+          "createdAt": "2024-05-25T14:22:43Z",
+          "updatedAt": "2024-05-25T14:22:43Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOL2qM4M5764i_",
+          "commit": {
+            "abbreviatedOid": "7e3f8f3"
+          },
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-05-25T14:18:16Z",
+          "updatedAt": "2024-05-25T14:18:16Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "in a DC",
+              "createdAt": "2024-05-25T14:18:16Z",
+              "updatedAt": "2024-05-25T14:18:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOL2qM4M5764mq",
+          "commit": {
+            "abbreviatedOid": "7e3f8f3"
+          },
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "many thanks",
+          "createdAt": "2024-05-25T14:20:42Z",
+          "updatedAt": "2024-05-25T14:20:42Z",
           "comments": []
         }
       ]
