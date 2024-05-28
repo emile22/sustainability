@@ -151,7 +151,7 @@ Before the project started it was difficult to estimate the power consumption re
 
 During and after the project, active power consumption could only be measured from some components (e.g., cpu power consumption estimated via current and voltage sensors), and from the power distribution at each rack (where only a subset of devices were replaced).
 
-One goal of the project could not be achieved: measure impact of increased density of devices (i.e., fan size impact moving from 1U to 2U devices which can be attributed to cooling).
+One goal of the project could not be achieved: measure impact of increased density of devices (i.e., fan size impact moving from 1U to 2U devices which can be attributed to cooling) due to insufficient granularity of power consumption metrics (at component level).
 
 Standardization of power consumption metrics (e.g. idle/max) for inventory would improve measurement for legacy hardware replacement projects. Improved power delivery designs inside racks already improves ability to measure real-time device power consumption, this allows device replacement projects to accurately measure impact. Devices reporting granular per-component power consumption metrics would allow component replacement projects to accurately measure reduction.
 
