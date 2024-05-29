@@ -5,7 +5,7 @@
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
 Intended status: Informational                                  T. Lorne
-Expires: 26 November 2024                                    25 May 2024
+Expires: 30 November 2024                                    29 May 2024
 
 
                legacy Modularity Usage for Eco-conception
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 November 2024.
+   This Internet-Draft will expire on 30 November 2024.
 
 Copyright Notice
 
@@ -243,7 +243,8 @@ Table of Contents
 
    One goal of the project could not be achieved: measure impact of
    increased density of devices (i.e., fan size impact moving from 1U to
-   2U devices which can be attributed to cooling).
+   2U devices which can be attributed to cooling) due to insufficient
+   granularity of power consumption metrics (at component level).
 
    Standardization of power consumption metrics (e.g. idle/max) for
    inventory would improve measurement for legacy hardware replacement
