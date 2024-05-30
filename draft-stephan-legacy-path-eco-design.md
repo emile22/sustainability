@@ -130,11 +130,14 @@ The update of legacy networks and devices to support dynamic power management is
 
 Legacy hardware components are rarely designed to be stopped and restarted. The rhythm of start/stop supported by such components must be documented to prevent wrong usage of their real capacity. This must be present in the datasheet or exposed by the components themselves.
 
-# Improve measurement methods
+# Path Toward Dynamic Assessement
+
 
 In the short-term, as promoted by several discussions in the GREEN-BoF mailing list, the device level assessment requires datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates first, and metrics to measure the power consumption {{POWEFF}} second.
 
-Hackathon sessions can be used to compare assessment methods.
+In parallel it should document a parsable string giving the minimum information about the parts of a legacy device which migrated to sustainability.
+
+Hackathon sessions can be used to compare assessment methods based either on inventory metadata or metrics.
 
 # Use Cases
 
