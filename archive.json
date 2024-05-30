@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-05-28T01:00:38.148135+00:00",
+  "timestamp": "2024-05-30T01:01:20.376415+00:00",
   "repo": "emile22/sustainability",
   "labels": [
     {
@@ -621,6 +621,63 @@
           "createdAt": "2024-05-25T14:20:42Z",
           "updatedAt": "2024-05-25T14:20:42Z",
           "comments": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOL2qM4M5wyK-U",
+      "title": "use-cases: clarify why goal not achievable",
+      "url": "https://github.com/emile22/sustainability/pull/13",
+      "state": "MERGED",
+      "author": "tlwr",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This sentence was ambiguous because i skipped out the emphasis on granularity of metrics...\r\n\r\nAdding this back into the use-case clarifies that component level metrics (not just device or rack level metrics) are important\r\n\r\nUseful for this draft and how it relates to the IVY one",
+      "createdAt": "2024-05-28T15:50:10Z",
+      "updatedAt": "2024-05-29T18:15:36Z",
+      "baseRepository": "emile22/sustainability",
+      "baseRefName": "main",
+      "baseRefOid": "2b76d5b33f2ca50934821e42baf1ac4789a8eb7d",
+      "headRepository": "tlwr/green-bof-sustainability",
+      "headRefName": "main",
+      "headRefOid": "72c4f9294c0b69327ab1ed611b361e07b5e46a26",
+      "closedAt": "2024-05-29T07:42:52Z",
+      "mergedAt": "2024-05-29T07:42:52Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "052b35152f56c95cca3dfd5ed2476cbfe07cd930"
+      },
+      "comments": [
+        {
+          "author": "tlwr",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Thanks!",
+          "createdAt": "2024-05-29T18:15:36Z",
+          "updatedAt": "2024-05-29T18:15:36Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOL2qM4M58P6mr",
+          "commit": {
+            "abbreviatedOid": "72c4f92"
+          },
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "ok",
+          "createdAt": "2024-05-29T07:36:56Z",
+          "updatedAt": "2024-05-29T07:37:17Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "ok",
+              "createdAt": "2024-05-29T07:36:56Z",
+              "updatedAt": "2024-05-29T07:37:17Z"
+            }
+          ]
         }
       ]
     }
