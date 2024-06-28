@@ -225,14 +225,14 @@ Table of Contents
 
 6.  Legacy Device and Energy efficiency
 
-   Legacy network devices Energy efficiency monitoring and control
+   Legacy network devices energy efficiency monitoring and control
    differ from end-user devices.  Network devices power consumption is
    implictly taken in account during the dimensioning of a network as
-   they are alway powered.  During their LCM, their maximum power
-   consumtion occurs once they are deployed.  On the opposite, end-user
-   portable devices power consumption is explictly managed as they
-   relies on battery and their maximum power consumtion occurs during
-   their manufacturing.
+   they are alway powered.  The maximum power consumtion occurs once
+   deployed.  On the opposite, end-user portable devices power
+   consumption is explictly managed as they rely on battery and their
+   maximum power consumtion occur during their manufacturing.  None of
+   these types of devices expose explicitly their energy efficiency.
 
 6.1.  IETF EMAN WG
 
