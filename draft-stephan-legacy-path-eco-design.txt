@@ -236,7 +236,8 @@ Table of Contents
 
 6.1.  IETF EMAN WG
 
-   Eman WG works focus mostly on battery powered devices.
+   The Eman WG produced the specifications for managing the energy
+   produced and consumed by a broad types of devices.
 
 7.  Use Cases
 
