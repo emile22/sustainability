@@ -140,8 +140,8 @@ Hackathon sessions can be used to compare assessment methods based either on inv
 
 # Legacy Device and Energy efficiency
 
-Legacy network devices Energy efficiency monitoring and control differ from end-user devices. Network devices power consumption is implictly taken in account during the dimensioning of a network as they are alway powered. During their LCM, their maximum power consumtion occurs once they are deployed.
-On the opposite, end-user portable devices power consumption is explictly managed as they relies on battery and their maximum power consumtion occurs during their manufacturing.
+Legacy network devices energy efficiency monitoring and control differ from end-user devices. Network devices power consumption is implictly taken in account during the dimensioning of a network as they are alway powered. The maximum power consumtion occurs once deployed. On the opposite, end-user portable devices power consumption is explictly managed as they rely on battery and their maximum power consumtion occur during their manufacturing.
+None of these types of devices expose explicitly their energy efficiency.
 
 ## IETF EMAN WG
 
