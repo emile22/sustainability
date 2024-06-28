@@ -145,7 +145,7 @@ None of these types of devices expose explicitly their energy efficiency.
 
 ## IETF EMAN WG
 
-Eman WG works focus mostly on battery powered devices.
+The Eman WG produced the specifications for managing the energy produced and consumed by a broad types of devices.
 
 # Use Cases
 
