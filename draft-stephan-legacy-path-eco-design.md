@@ -134,18 +134,27 @@ Legacy hardware components are rarely designed to be stopped and restarted. The 
 
 In the short-term, as promoted by several discussions in the GREEN-BoF mailing list, the device level assessment requires datamodels augmentation {{IVY-WG}} to expose these capabilities and configuration updates first, and metrics to measure the power consumption {{POWEFF}} second.
 
-In parallel it should document a parsable string giving the minimum information about the parts of a legacy device which migrated to sustainability.
+In parallel it should document the minimum information (readable and parsable) about the parts of a legacy device which migrated to sustainability.
 
 Hackathon sessions can be used to compare assessment methods based either on inventory metadata or metrics.
 
 # Legacy Device and Energy efficiency
 
-Legacy network devices energy efficiency monitoring and control differ from end-user devices. Network devices power consumption is implictly taken in account during the dimensioning of a network as they are alway powered. The maximum power consumtion occurs once deployed. On the opposite, end-user portable devices power consumption is explictly managed as they rely on battery and their maximum power consumtion occur during their manufacturing.
-None of these types of devices expose explicitly their energy efficiency.
+Legacy network devices energy efficiency monitoring and control differ from end-user devices.  
+
+As they are alway powered, network devices power consumption is taked in account during the dimensioning of a network. The maximum power consumtion occurs once deployed. 
+
+On the opposite, end-user portable devices power consumption is explictly managed as they rely on battery and their maximum power consumtion occur during their manufacturing.
+
+There are many other types of connected devices, none of these types of devices expose explicitly their energy efficiency.
 
 ## IETF EMAN WG
 
-The Eman WG produced the specifications for managing the energy produced and consumed by a broad types of devices.
+10 years ago the EMAN WG produced the specifications (requirements in rfc6988, framework in rfc7326, Energy Object Context MIB in rfc7461, Applicability Statement in rfc7603) for managing the energy produced and consumed by a broad types of network devices. The holistic approach includes standard for devices components rule and identifier.
+
+10 years later, there isn't a commonly deployed framework for energy management of network devices components. Despite this, there migh be enough information in EMAN documents to standard the identification of components which "migrated to sustainability" in a legacy device.
+
+Energy Object Context MIB, rfcrfc7461, is a reasonable starting point as it provides identification and context definitions which can to be reuse.
 
 # Use Cases
 
