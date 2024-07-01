@@ -79,6 +79,7 @@ Table of Contents
      6.1.  IETF EMAN WG
    7.  Use Cases
      7.1.  Device replacement in a DC
+     7.2.  Embedded Carbon
    8.  Security Considerations
    9.  IANA Considerations
    10. Informative References
@@ -299,6 +300,46 @@ Table of Contents
    Devices reporting granular per-component power consumption metrics
    would allow component replacement projects to accurately measure
    reduction.
+
+7.2.  Embedded Carbon
+
+   In the pursuit to asses the network is essential to understand the
+   'embedded carbon' of ICT equipment, which represents the greenhouse
+   gas emissions associated with a product's entire lifecycle.  A Life
+   Cycle Assessment (LCA), conforming to international standards such as
+   ISO 14040 and ISO 14044, is employed to model these impacts across
+   multiple categories, from cradle to grave, please refer to
+   Sustainability Insights draft [SUST-INS].
+
+   For smartphones, approximately 80% of lifetime CO2e emissions are
+   attributed to the production phase, underscoring the significance of
+   manufacturing in the device's embedded carbon.  In contrast,
+   networking equipment not only incurs a substantial portion of its
+   embedded carbon during production and testing but also during its
+   operational life, including periods of idle power.
+
+   Vendors are increasingly focusing on reducing the energy consumption
+   of networking equipment, both in operation and throughout the
+   production process.  Modular design and a circular closed-loop
+   approach for component return, repair, recovery, and reuse are
+   instrumental in decreasing the raw materials and emissions required
+   for new components, thereby reducing the embedded carbon.
+
+   Embedded carbon is typically estimated based on energy consumption at
+   each lifecycle stage, as direct measurement is often impractical.
+   This estimation is crucial for organizations and consumers making
+   environmentally responsible choices and for manufacturers striving to
+   minimize the carbon footprint of their products.  By selecting
+   materials and processes with lower associated GHG emissions and
+   improving design, manufacturers can significantly reduce energy
+   consumption and, consequently, embedded carbon.
+
+   When accounting for the energy consumption of network equipment and
+   components, it is important to consider not only the idle power but
+   also the energy allocated to the manufacturing phase.  This
+   comprehensive approach ensures that the embedded energy—and by
+   extension, the embedded carbon—of each piece of equipment is
+   accurately reflected in environmental impact assessments.
 
 8.  Security Considerations
 
