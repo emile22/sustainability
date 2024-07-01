@@ -140,9 +140,9 @@ Hackathon sessions can be used to compare assessment methods based either on inv
 
 # Legacy Device and Energy efficiency
 
-Legacy network devices energy efficiency monitoring and control differ from end-user devices.  
+Legacy network devices energy efficiency monitoring and control differ from end-user devices.
 
-As they are alway powered, network devices power consumption is taked in account during the dimensioning of a network. The maximum power consumtion occurs once deployed. 
+As they are alway powered, network devices power consumption is taked in account during the dimensioning of a network. The operational phase, so after deployment, represents the main portion of a network device's total energy consumption. Nevertheless the manufacturing (including testing, ...) and the deployment (including transport...) is significant especially if the recycling is included.
 
 On the opposite, end-user portable devices power consumption is explictly managed as they rely on battery and their maximum power consumtion occur during their manufacturing.
 
@@ -154,7 +154,7 @@ There are many other types of connected devices, none of these types of devices 
 
 10 years later, there isn't a commonly deployed framework for energy management of network devices components. Despite this, there migh be enough information in EMAN documents to standard the identification of components which "migrated to sustainability" in a legacy device.
 
-Energy Object Context MIB, rfcrfc7461, is a reasonable starting point as it provides identification and context definitions which can to be reuse.
+Energy Object Context MIB, rfcrfc7461, is a reasonable starting point as it provides identification and context definitions which can be reused to describe these components.
 
 # Use Cases
 
