@@ -5,7 +5,7 @@
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
 Intended status: Informational                                  T. Lorne
-Expires: 30 December 2024                                   28 June 2024
+Expires: 2 January 2025                                      1 July 2024
 
 
                legacy Modularity Usage for Eco-conception
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 December 2024.
+   This Internet-Draft will expire on 2 January 2025.
 
 Copyright Notice
 
@@ -216,8 +216,8 @@ Table of Contents
    updates first, and metrics to measure the power consumption [POWEFF]
    second.
 
-   In parallel it should document a parsable string giving the minimum
-   information about the parts of a legacy device which migrated to
+   In parallel it should document the minimum information (readable and
+   parsable) about the parts of a legacy device which migrated to
    sustainability.
 
    Hackathon sessions can be used to compare assessment methods based
@@ -226,18 +226,40 @@ Table of Contents
 6.  Legacy Device and Energy efficiency
 
    Legacy network devices energy efficiency monitoring and control
-   differ from end-user devices.  Network devices power consumption is
-   implictly taken in account during the dimensioning of a network as
-   they are alway powered.  The maximum power consumtion occurs once
-   deployed.  On the opposite, end-user portable devices power
-   consumption is explictly managed as they rely on battery and their
-   maximum power consumtion occur during their manufacturing.  None of
-   these types of devices expose explicitly their energy efficiency.
+   differ from end-user devices.
+
+   As they are alway powered, network devices power consumption is taked
+   in account during the dimensioning of a network.  The operational
+   phase, so after deployment, represents the main portion of a network
+   device's total energy consumption.  Nevertheless the manufacturing
+   (including testing, ...) and the deployment (including transport...)
+   is significant especially if the recycling is included.
+
+   On the opposite, end-user portable devices power consumption is
+   explictly managed as they rely on battery and their maximum power
+   consumtion occur during their manufacturing.
+
+   There are many other types of connected devices, none of these types
+   of devices expose explicitly their energy efficiency.
 
 6.1.  IETF EMAN WG
 
-   The Eman WG produced the specifications for managing the energy
-   produced and consumed by a broad types of devices.
+   10 years ago the EMAN WG produced the specifications (requirements in
+   rfc6988, framework in rfc7326, Energy Object Context MIB in rfc7461,
+   Applicability Statement in rfc7603) for managing the energy produced
+   and consumed by a broad types of network devices.  The holistic
+   approach includes standard for devices components rule and
+   identifier.
+
+   10 years later, there isn't a commonly deployed framework for energy
+   management of network devices components.  Despite this, there migh
+   be enough information in EMAN documents to standard the
+   identification of components which "migrated to sustainability" in a
+   legacy device.
+
+   Energy Object Context MIB, rfcrfc7461, is a reasonable starting point
+   as it provides identification and context definitions which can be
+   reused to describe these components.
 
 7.  Use Cases
 

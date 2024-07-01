@@ -1026,11 +1026,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">legacy modularity and eco-design</td>
-<td class="right">June 2024</td>
+<td class="right">July 2024</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Stephan &amp; Lorne</td>
-<td class="center">Expires 30 December 2024</td>
+<td class="center">Expires 2 January 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1043,12 +1043,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-stephan-legacy-path-eco-design</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-06-28" class="published">28 June 2024</time>
+<time datetime="2024-07-01" class="published">1 July 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-12-30">30 December 2024</time></dd>
+<dd class="expires"><time datetime="2025-01-02">2 January 2025</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1101,7 +1101,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 30 December 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 2 January 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1262,7 +1262,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="#section-5" class="section-number selfRef">5. </a><a href="#name-path-toward-dynamic-assesse" class="section-name selfRef">Path Toward Dynamic Assessement</a>
       </h2>
 <p id="section-5-1">In the short-term, as promoted by several discussions in the GREEN-BoF mailing list, the device level assessment requires datamodels augmentation <span>[<a href="#IVY-WG" class="cite xref">IVY-WG</a>]</span> to expose these capabilities and configuration updates first, and metrics to measure the power consumption <span>[<a href="#POWEFF" class="cite xref">POWEFF</a>]</span> second.<a href="#section-5-1" class="pilcrow">¶</a></p>
-<p id="section-5-2">In parallel it should document a parsable string giving the minimum information about the parts of a legacy device which migrated to sustainability.<a href="#section-5-2" class="pilcrow">¶</a></p>
+<p id="section-5-2">In parallel it should document the minimum information (readable and parsable) about the parts of a legacy device which migrated to sustainability.<a href="#section-5-2" class="pilcrow">¶</a></p>
 <p id="section-5-3">Hackathon sessions can be used to compare assessment methods based either on inventory metadata or metrics.<a href="#section-5-3" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -1271,14 +1271,18 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <h2 id="name-legacy-device-and-energy-ef">
 <a href="#section-6" class="section-number selfRef">6. </a><a href="#name-legacy-device-and-energy-ef" class="section-name selfRef">Legacy Device and Energy efficiency</a>
       </h2>
-<p id="section-6-1">Legacy network devices energy efficiency monitoring and control differ from end-user devices. Network devices power consumption is implictly taken in account during the dimensioning of a network as they are alway powered. The maximum power consumtion occurs once deployed. On the opposite, end-user portable devices power consumption is explictly managed as they rely on battery and their maximum power consumtion occur during their manufacturing.
-None of these types of devices expose explicitly their energy efficiency.<a href="#section-6-1" class="pilcrow">¶</a></p>
+<p id="section-6-1">Legacy network devices energy efficiency monitoring and control differ from end-user devices.<a href="#section-6-1" class="pilcrow">¶</a></p>
+<p id="section-6-2">As they are alway powered, network devices power consumption is taked in account during the dimensioning of a network. The operational phase, so after deployment, represents the main portion of a network device's total energy consumption. Nevertheless the manufacturing (including testing, ...) and the deployment (including transport...) is significant especially if the recycling is included.<a href="#section-6-2" class="pilcrow">¶</a></p>
+<p id="section-6-3">On the opposite, end-user portable devices power consumption is explictly managed as they rely on battery and their maximum power consumtion occur during their manufacturing.<a href="#section-6-3" class="pilcrow">¶</a></p>
+<p id="section-6-4">There are many other types of connected devices, none of these types of devices expose explicitly their energy efficiency.<a href="#section-6-4" class="pilcrow">¶</a></p>
 <div id="ietf-eman-wg">
 <section id="section-6.1">
         <h3 id="name-ietf-eman-wg">
 <a href="#section-6.1" class="section-number selfRef">6.1. </a><a href="#name-ietf-eman-wg" class="section-name selfRef">IETF EMAN WG</a>
         </h3>
-<p id="section-6.1-1">The Eman WG produced the specifications for managing the energy produced and consumed by a broad types of devices.<a href="#section-6.1-1" class="pilcrow">¶</a></p>
+<p id="section-6.1-1">10 years ago the EMAN WG produced the specifications (requirements in rfc6988, framework in rfc7326, Energy Object Context MIB in rfc7461, Applicability Statement in rfc7603) for managing the energy produced and consumed by a broad types of network devices. The holistic approach includes standard for devices components rule and identifier.<a href="#section-6.1-1" class="pilcrow">¶</a></p>
+<p id="section-6.1-2">10 years later, there isn't a commonly deployed framework for energy management of network devices components. Despite this, there migh be enough information in EMAN documents to standard the identification of components which "migrated to sustainability" in a legacy device.<a href="#section-6.1-2" class="pilcrow">¶</a></p>
+<p id="section-6.1-3">Energy Object Context MIB, rfcrfc7461, is a reasonable starting point as it provides identification and context definitions which can be reused to describe these components.<a href="#section-6.1-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
