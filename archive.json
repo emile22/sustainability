@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-30T01:08:12.951524+00:00",
+  "timestamp": "2024-07-02T01:03:32.081505+00:00",
   "repo": "emile22/sustainability",
   "labels": [
     {
@@ -678,6 +678,48 @@
               "updatedAt": "2024-05-29T07:37:17Z"
             }
           ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "PR_kwDOL2qM4M50GUPi",
+      "title": "adding use case Embedded Carbon",
+      "url": "https://github.com/emile22/sustainability/pull/14",
+      "state": "MERGED",
+      "author": "marisolpalmero",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Emile please could you check on the use case that I just added on embedded carbon? hopefully it resonates well with you",
+      "createdAt": "2024-07-01T17:12:51Z",
+      "updatedAt": "2024-07-01T21:09:17Z",
+      "baseRepository": "emile22/sustainability",
+      "baseRefName": "main",
+      "baseRefOid": "b43a880773b3040f8051a09510af44a520576008",
+      "headRepository": "marisolpalmero/sustainability",
+      "headRefName": "UseCase_EmbeddedCarbon",
+      "headRefOid": "2001232adca56baabd32f98ff37d654befe5a2e2",
+      "closedAt": "2024-07-01T21:09:17Z",
+      "mergedAt": "2024-07-01T21:09:17Z",
+      "mergedBy": "emile22",
+      "mergeCommit": {
+        "oid": "bddb21e828038fcf87a93df44b0df70d23cae1bf"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOL2qM4M6ASLCY",
+          "commit": {
+            "abbreviatedOid": "2001232"
+          },
+          "author": "emile22",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Thanks Marisol for the inputs on GHG",
+          "createdAt": "2024-07-01T21:03:24Z",
+          "updatedAt": "2024-07-01T21:03:24Z",
+          "comments": []
         }
       ]
     }
