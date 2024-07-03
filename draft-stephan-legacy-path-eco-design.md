@@ -85,11 +85,11 @@ This document discusses the usage of inventory-maintained information for assess
 
 # Introduction
 
-Many companies have integrated sustainability improvements into their core business strategies. Such trend is driven by the growing awareness of environmental matters and regulatory requirements like Corporate Sustainability Reporting Directive (CSRD), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance.
+Many companies have integrated sustainability improvements into their core business strategies. Such trend is driven by the growing awareness of environmental matters and regulatory requirements like Corporate Sustainability Reporting Directive (CSRD), a regulatory framework proposed by the European Commission to enhance corporate transparency and ensure that companies provide comparable information to assess their sustainability performance. In a close future they will integrate the regulation on ecodesign framework [(EU) 2024/1781] published in June by the European Commission.
 
 Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. This document discusses the benefits of leveraging existing devices modularity to introduce eco-designed components in the networks while being able to assess the gains in sustainability.
 
-The motivation of this approach is the urgent need to start decreasing resource consumption by simply replacing devices components. This  approach can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
+The motivation is the urgent need to start decreasing resource consumption by simply replacing devices components. It can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
 
 # Network and Devices Modularity
 
