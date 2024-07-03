@@ -22,17 +22,14 @@ v: 3
 
 author:
  -
-   ins: E. Stephan
    name: Emile Stephan
    organization: Orange
-   street: 2, avenue Pierre Marzin
-   city: Lannion
-   code: 22300
    country: France
    email: emile.stephan@gmail.com
 
  -
    name: Toby Lorne
+   organization: Booking BV   
    email: toby@toby.codes
 
  -
@@ -160,6 +157,8 @@ There are many other types of connected devices, none of these types of devices 
 10 years later, there isn't a commonly deployed framework for energy management of network devices components. Despite this, there migh be enough information in EMAN documents to standard the identification of components which "migrated to sustainability" in a legacy device.
 
 Energy Object Context MIB, rfcrfc7461, is a reasonable starting point as it provides identification and context definitions which can be reused to describe these components.
+
+The energy allocated to the manufacturing phase (and to the steps before the deployement) is commonly accounted in 'embedded carbon' unit while the power consumption in operation is ususally measured in kilowatt-hour.
 
 # Use Cases
 
