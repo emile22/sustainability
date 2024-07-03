@@ -5,7 +5,10 @@
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
 Intended status: Informational                                  T. Lorne
-Expires: 2 January 2025                                      1 July 2024
+Expires: 4 January 2025                                                 
+                                                              M. Palmero
+                                                           Cisco Systems
+                                                             3 July 2024
 
 
                legacy Modularity Usage for Eco-conception
@@ -51,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 January 2025.
+   This Internet-Draft will expire on 4 January 2025.
 
 Copyright Notice
 
@@ -388,3 +391,8 @@ Authors' Addresses
 
    Toby Lorne
    Email: toby@toby.codes
+
+
+   Marisol Palmero
+   Cisco Systems
+   Email: mpalmero@cisco.com
