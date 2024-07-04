@@ -29,7 +29,7 @@ author:
 
  -
    name: Toby Lorne
-   organization: Booking BV   
+   organization: Booking BV
    email: toby@toby.codes
 
  -
