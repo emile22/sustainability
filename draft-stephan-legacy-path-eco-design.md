@@ -158,7 +158,7 @@ There are many other types of connected devices, none of these types of devices 
 
 Energy Object Context MIB [rfc7461], ENTITY-MIB [rfc6933] are reasonable starting points as they provide identification and context definitions which can be reused to describe these components. UUID [rfc9562] is such an example as it is in use both in EMAN MIBs and in YANG Hardware Management [rfc8348].
 
-As recalled below in the use case Embedded Carbon, the energy allocated to the manufacturing phase (including the steps before the deployement) is commonly accounted in 'embedded carbon' unit while the power consumption in operation is ususally measured in kilowatt-hour. 
+As recalled below in the use case Embedded Carbon, the energy allocated to the manufacturing phase (including the steps before the deployement) is commonly accounted in 'embedded carbon' unit while the power consumption in operation is ususally measured in kilowatt-hour.
 
 # Use Cases
 
