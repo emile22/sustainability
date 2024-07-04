@@ -86,7 +86,7 @@ Many companies have integrated sustainability improvements into their core busin
 
 Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. This document discusses the benefits of leveraging existing devices modularity to introduce eco-designed components in the networks while being able to assess the gains in sustainability.
 
-The motivation is the urgent need to start decreasing resource consumption by simply replacing devices components. It can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
+The motivations are the urgent need to reduce power consumption by replacing device components with more energy-efficient alternatives, and to decrease embedded carbon emissions while extending the life duration of the device chassis. It can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
 
 # Network and Devices Modularity
 
@@ -152,13 +152,13 @@ There are many other types of connected devices, none of these types of devices 
 
 ## IETF EMAN WG
 
-10 years ago the EMAN WG produced the specifications (requirements in rfc6988, framework in rfc7326, Energy Object Context MIB in rfc7461, Applicability Statement in rfc7603) for managing the energy produced and consumed by a broad types of network devices. The holistic approach includes standard for devices components rule and identifier.
+10 years ago the EMAN WG produced the specifications (requirements in rfc6988, framework in rfc7326, ENTITY-MIB in rfc6933, Energy Object Context MIB in rfc7461, Battery Monitoring MIB in rfc7577, Monitoring and Control MIB for Power and Energy in rfc7460, Applicability Statement in rfc7603) for managing the energy produced and consumed by a broad types of network devices. The holistic approach includes standard for devices components rule and identifier.
 
 10 years later, there isn't a commonly deployed framework for energy management of network devices components. Despite this, there migh be enough information in EMAN documents to standard the identification of components which "migrated to sustainability" in a legacy device.
 
-Energy Object Context MIB, rfcrfc7461, is a reasonable starting point as it provides identification and context definitions which can be reused to describe these components.
+Energy Object Context MIB [rfc7461], ENTITY-MIB [rfc6933] are reasonable starting points as they provide identification and context definitions which can be reused to describe these components. UUID [rfc9562] is such an example as it is in use both in EMAN MIBs and in YANG Hardware Management [rfc8348].
 
-The energy allocated to the manufacturing phase (and to the steps before the deployement) is commonly accounted in 'embedded carbon' unit while the power consumption in operation is ususally measured in kilowatt-hour.
+As recalled below in the use case Embedded Carbon, the energy allocated to the manufacturing phase (including the steps before the deployement) is commonly accounted in 'embedded carbon' unit while the power consumption in operation is ususally measured in kilowatt-hour. 
 
 # Use Cases
 
