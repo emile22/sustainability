@@ -5,10 +5,10 @@
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
 Intended status: Informational                                  T. Lorne
-Expires: 4 January 2025                                                 
+Expires: 5 January 2025                                       Booking BV
                                                               M. Palmero
                                                            Cisco Systems
-                                                             3 July 2024
+                                                             4 July 2024
 
 
                legacy Modularity Usage for Eco-conception
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 January 2025.
+   This Internet-Draft will expire on 5 January 2025.
 
 Copyright Notice
 
@@ -266,6 +266,11 @@ Table of Contents
    as it provides identification and context definitions which can be
    reused to describe these components.
 
+   The energy allocated to the manufacturing phase (and to the steps
+   before the deployement) is commonly accounted in 'embedded carbon'
+   unit while the power consumption in operation is ususally measured in
+   kilowatt-hour.
+
 7.  Use Cases
 
 7.1.  Device replacement in a DC
@@ -384,13 +389,12 @@ Authors' Addresses
 
    Emile Stephan
    Orange
-   2, avenue Pierre Marzin
-   22300 Lannion
    France
    Email: emile.stephan@gmail.com
 
 
    Toby Lorne
+   Booking BV
    Email: toby@toby.codes
 
 
