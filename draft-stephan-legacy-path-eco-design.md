@@ -86,7 +86,7 @@ Many companies have integrated sustainability improvements into their core busin
 
 Sustainability impacts numerous aspects of the life cycle management (LCM) of devices. This document discusses the benefits of leveraging existing devices modularity to introduce eco-designed components in the networks while being able to assess the gains in sustainability.
 
-The motivations are the urgent need to reduce power consumption by replacing device components with more energy-efficient alternatives, and to decrease embedded carbon emissions while extending the life duration of the device chassis. It can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach.
+The motivations are the urgent need to reduce power consumption by replacing device components with more energy-efficient alternatives, and to decrease embedded carbon emissions while extending the life duration of the device chassis. It can be viewed as a very basic use case of GREEN-bof {{GREEN-BOF}} approach and the requirement of a fast track specification for reporting the path of a legacy device to sustainability.
 
 # Network and Devices Modularity
 
