@@ -5,10 +5,10 @@
 WG Working Group                                              E. Stephan
 Internet-Draft                                                    Orange
 Intended status: Informational                                  T. Lorne
-Expires: 5 January 2025                                       Booking BV
+Expires: 6 January 2025                                       Booking BV
                                                               M. Palmero
                                                            Cisco Systems
-                                                             4 July 2024
+                                                             5 July 2024
 
 
                legacy Modularity Usage for Eco-conception
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 January 2025.
+   This Internet-Draft will expire on 6 January 2025.
 
 Copyright Notice
 
@@ -110,7 +110,9 @@ Table of Contents
    replacing device components with more energy-efficient alternatives,
    and to decrease embedded carbon emissions while extending the life
    duration of the device chassis.  It can be viewed as a very basic use
-   case of GREEN-bof [GREEN-BOF] approach.
+   case of GREEN-bof [GREEN-BOF] approach and the requirement of a fast
+   track specification for reporting the path of a legacy device to
+   sustainability.
 
 2.  Network and Devices Modularity
 
