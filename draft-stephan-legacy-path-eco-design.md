@@ -189,7 +189,7 @@ Vendors are increasingly focusing on reducing the energy consumption of networki
 
 Embedded carbon is typically estimated based on energy consumption at each lifecycle stage, as direct measurement is often impractical. This estimation is crucial for organizations and consumers making environmentally responsible choices and for manufacturers striving to minimize the carbon footprint of their products. By selecting materials and processes with lower associated GHG emissions and improving design, manufacturers can significantly reduce energy consumption and, consequently, embedded carbon.
 
-When accounting for the energy consumption of network equipment and components, it is important to consider not only the idle power but also the energy allocated to the manufacturing phase. This comprehensive approach ensures that the embedded energy—and by extension, the embedded carbon—of each piece of equipment is accurately reflected in environmental impact assessments.
+When accounting for the energy consumption of network equipment and components, it is important to consider not only the idle power but also the energy allocated to the manufacturing phase. This comprehensive approach ensures that the embedded energy (and by extension, the embedded carbon) of each piece of equipment is accurately reflected in environmental impact assessments.
 
 # Security Considerations
 
