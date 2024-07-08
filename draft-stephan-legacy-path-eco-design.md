@@ -1,7 +1,7 @@
 	---
 title: "legacy Modularity Usage for Eco-conception"
 abbrev: "legacy modularity and eco-design"
-docname: draft-stephan-legacy-path-eco-design-01
+docname: draft-stephan-legacy-path-eco-design
 
 category: info
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
