@@ -355,8 +355,8 @@ Table of Contents
    When accounting for the energy consumption of network equipment and
    components, it is important to consider not only the idle power but
    also the energy allocated to the manufacturing phase.  This
-   comprehensive approach ensures that the embedded energy—and by
-   extension, the embedded carbon—of each piece of equipment is
+   comprehensive approach ensures that the embedded energy (and by
+   extension, the embedded carbon) of each piece of equipment is
    accurately reflected in environmental impact assessments.
 
 8.  Security Considerations
