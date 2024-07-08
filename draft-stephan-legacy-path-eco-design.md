@@ -76,7 +76,7 @@ informative:
 
 --- abstract
 
-This document discusses the usage of inventory-maintained information for assessing the adaptation of existing devices to eco-design. This assessment is driven by the weight of the manufacturing in the sustainability cost with regard to the power consumption.
+This document discusses the usage of inventory-maintained information for assessing the adaptation of existing devices to eco-design. This assessment is driven by the weight of the manufacturing in the sustainability cost with regard to the power consumption in operation.
 
 --- middle
 
